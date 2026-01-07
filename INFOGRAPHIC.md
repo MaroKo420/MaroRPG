@@ -505,7 +505,7 @@ MaroRPG/
 ║  🌍 ŚRODOWISKO      - ekologia, zasoby                             ║
 ║                                                                    ║
 ║  Każda: POZYTYWNA (przewaga) lub NEGATYWNA (problem)               ║
-║  Start: 2-3 negatywne, 2-3 pozytywne                               ║
+║  Start (NOWY 7.01.26): 2 problemy, 2 przewagi, 1 neutralna        ║
 ║  Evolucja: Lvl 0 → 1 → 2 → 3 → 4                                   ║
 ║                                                                    ║
 ║  🎲 KOŁO FORTUNY (Jak rozstrzygać?)                                ║
@@ -516,13 +516,15 @@ MaroRPG/
 ║  + Morale, Sojusze, Role                                           ║
 ║  = FINALNA SZANSA (rzut 1-100)                                     ║
 ║                                                                    ║
-║  🚀 JAK WYGRAĆ?                                                    ║
+║  🚀 JAK WYGRAĆ? (NOWY SYSTEM 7.01.2026)                            ║
 ║  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ║
-║  3 ŚCIEŻKI ZWYCIĘSTWA:                                             ║
-║  1. 🚀 MISJA NA MARSA - NAUKA Lvl 4 + 3 technologie               ║
-║     (Źródło Energii, Transport, Terraformacja Tier 3)             ║
-║  2. ⚔️  DOMINACJA MILITARNA - MILITARIA Lvl 4 + podbicie          ║
-║  3. 🌟 UTOPIA - 3 dyscypliny na Lvl 4                             ║
+║  5 ŚCIEŻEK ZWYCIĘSTWA - PIERWSZY DO 10 PUNKTÓW POSTĘPU!           ║
+║  1. 🔬 HEGEMONIA NAUKOWA (Nauka + Społeczeństwo) - ⭐⭐⭐           ║
+║  2. 💰 POTĘGA EKONOMICZNA (Cywilizacja + Środowisko) - ⭐⭐        ║
+║  3. ⚔️  IMPERIUM MILITARNE (Militaria + 2 stabilne) - ⭐⭐⭐⭐⭐     ║
+║  4. 🕊️  FEDERACJA POKOJU (3+ kraje w sojuszu) - ⭐⭐⭐ (wspólne!) ║
+║  5. 🛡️  PRZETRWANIE (4/5 dyscyplin stabilnych) - ⭐⭐              ║
+║  Punkty: Arbiter ocenia (1-3) + Koło Fortuny (+/-1)               ║
 ║                                                                    ║
 ║  🌳 TECHNOLOGIE                                                    ║
 ║  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ║

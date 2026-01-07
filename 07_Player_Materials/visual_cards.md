@@ -464,18 +464,21 @@ LEGENDA:
 ║           🎮 WITAJ W MARORPG - Szybki Start                        ║
 ╠════════════════════════════════════════════════════════════════════╣
 ║                                                                    ║
-║  🎯 TWÓJ CEL:                                                      ║
-║    Wybierz jedną z 3 ścieżek zwycięstwa i osiągnij ją!             ║
+║  🎯 TWÓJ CEL: ZDOBĄDŹ 10 PUNKTÓW POSTĘPU!                          ║
+║    Wybierz jedną z 5 ścieżek zwycięstwa:                          ║
 ║                                                                    ║
-║    1. 🚀 MISJA NA MARSA (Nauka Lvl 4 + 3 technologie)             ║
-║    2. ⚔️  DOMINACJA MILITARNA (Militaria Lvl 4 + podbicie)        ║
-║    3. 🌟 UTOPIA (3 dyscypliny na Lvl 4)                           ║
+║    1. 🔬 HEGEMONIA NAUKOWA (Nauka + Społeczeństwo) - ⭐⭐⭐        ║
+║    2. 💰 POTĘGA EKONOMICZNA (Cywilizacja + Środowisko) - ⭐⭐     ║
+║    3. ⚔️  IMPERIUM MILITARNE (Militaria + 2 inne) - ⭐⭐⭐⭐⭐      ║
+║    4. 🕊️  FEDERACJA POKOJU (3+ kraje) - ⭐⭐⭐ (wspólne!)         ║
+║    5. 🛡️  PRZETRWANIE (4/5 stabilnych) - ⭐⭐                      ║
 ║                                                                    ║
 ╠════════════════════════════════════════════════════════════════════╣
 ║  🏛️ TWÓJ KRAJ:                                                     ║
 ║    • Masz 5 DYSCYPLIN (obszary rozwoju kraju)                      ║
-║    • 2-3 są NEGATYWNE (problemy do rozwiązania)                    ║
-║    • 2-3 są POZYTYWNE (twoje przewagi)                             ║
+║    • 2 są NEGATYWNE (Lvl 1/3 - problemy do rozwiązania)            ║
+║    • 2 są POZYTYWNE (Lvl 3/3 - twoje przewagi)                     ║
+║    • 1 jest NEUTRALNA (Lvl 2/3 - przeciętna)                       ║
 ║                                                                    ║
 ║  📊 DYSCYPLINY:                                                    ║
 ║    ⚔️  MILITARIA - armia, obrona                                   ║
@@ -501,10 +504,11 @@ LEGENDA:
 ║       • Po zebraniu wystarczająco PP → LVLUP!                      ║
 ║       • Lvl 1 → Lvl 2 → Lvl 3 → Lvl 4                              ║
 ║                                                                    ║
-║    2. NEGATYWNE DYSCYPLINY:                                        ║
-║       • Pogarszają się AUTOMATYCZNIE jeśli ich nie naprawiasz     ║
-║       • Lvl 1 → (3 tury) → Lvl 2 → (2 tury) → Lvl 3 → PRZEGRANA  ║
-║       • MUSISZ je naprawić akcją "Naprawa Dyscypliny"             ║
+║    2. NEGATYWNE DYSCYPLINY (NOWY SYSTEM 7.01.26):                 ║
+║       • NIE degradują się automatycznie!                           ║
+║       • Pogarszają się TYLKO gdy: ignorujesz 2 tury / eksploatujesz║
+║       • Naprawa: akcja "Naprawa Dyscypliny" (koszt: zasoby)       ║
+║       • Lvl 1 → ignorowanie → Lvl 2 → ignorowanie → Lvl 3         ║
 ║                                                                    ║
 ║    3. KOŁO FORTUNY:                                                ║
 ║       • Każda akcja = rzut (bazowa szansa: 60%)                    ║

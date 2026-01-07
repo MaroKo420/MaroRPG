@@ -2,11 +2,72 @@
 
 ## 📐 Podstawy
 
+**✅ ZAKTUALIZOWANE - 7.01.2026**
+
+Po pierwszym playteście zdecydowano o wprowadzeniu **struktury 3 Aktów** dla lepszego rytmu rozgrywki.
+
 **1 Tura = 1 Pora Roku**
 
 Gra toczy się w **sezonach** (wiosna, lato, jesień, zima), a każdy sezon to jedna tura rozgrywki.
 - 4 tury = 1 rok
-- Planowana długość gry: **12-20 sezonów** (3-5 lat)
+- **Nowa długość gry:** **8-11 sezonów (tur)** = **2-3 godziny**
+
+---
+
+## 🎭 STRUKTURA 3 AKTÓW - Meta-Poziom Gry
+
+### Gra podzielona jest na 3 AKTY z przerwami między nimi
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                     STRUKTURA ROZGRYWKI                         │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  🌱 AKT I: STABILIZACJA (3-4 tury) ~ 2-3h                      │
+│     • Gracze uczą się zasad                                    │
+│     • Ratują początkowe problemy (negatywne dyscypliny)        │
+│     • Planują długoterminową strategię                         │
+│     • Wybierają ścieżkę zwycięstwa                             │
+│                                                                 │
+│  📊 SCOREBOARD → Arbiter pokazuje publiczne punkty             │
+│                                                                 │
+│  ☕ PRZERWA (15 minut)                                          │
+│     • Krótki odpoczynek                                        │
+│     • Dyplomacja między krajami                                │
+│     • Analiza wyników Aktu I                                   │
+│                                                                 │
+│  🚀 AKT II: ROZWÓJ (3-4 tury) ~ 2-3h                           │
+│     • Kraje dążą do swoich celów                               │
+│     • Rozwój dyscyplin i technologii                           │
+│     • Intensywne interakcje międzynarodowe                     │
+│     • Sojusze i konflikty                                      │
+│                                                                 │
+│  📊 SCOREBOARD → Arbiter pokazuje punkty, wyścig się zaostrza  │
+│                                                                 │
+│  🏆 AKT III: FINAŁ (2-3 tury) ~ 1-2h                           │
+│     • Wyścig do 10 Punktów Postępu!                            │
+│     • Intensywne akcje                                         │
+│     • Możliwe zwycięstwo                                       │
+│     • Scoreboard na bieżąco                                    │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+
+CAŁKOWITY CZAS GRY: 2-3 godziny (8-11 tur)
+```
+
+### Dlaczego 3 Akty?
+
+**Problem (z playtestu #1):**
+- Gracze przegrali w turze 2 przez frustrację
+- Brak poczucia progresji
+- Zbyt szybka degradacja problemów
+- Nieczytelny cel
+
+**Rozwiązanie - 3 Akty:**
+- ✅ **AKT I = Tutorial** - gracze uczą się gry w bezpiecznym środowisku
+- ✅ **Przerwy = Scoreboard** - wszyscy widzą postęp, jasny cel (10 punktów)
+- ✅ **AKT III = Climax** - emocjonujący finał, wyścig do mety
+- ✅ **Jasny rytm** - początek, środek, koniec (jak w filmie/książce)
 
 ---
 
@@ -296,31 +357,38 @@ START TURY
 
 ---
 
-## ⏱️ Timing - Przykładowa Sesja
+## ⏱️ Timing - Nowa Struktura (po aktualizacji 7.01.2026)
 
-**Założenia:**
-- Gra: 12 sezonów (3 lata)
-- Jedna tura: ~45 minut
-- **Całkowity czas:** 12 × 45 min = **9 godzin**
+**Założenia (ZAKTUALIZOWANE):**
+- Gra: **8-11 tur** (podzielona na 3 Akty)
+- Jedna tura: ~35-40 minut (zoptymalizowane)
+- **Całkowity czas:** 8-11 tur × ~15-20 min/tura = **2-3 godziny** ✅
 
-**⚠️ To jest za długo!**
+### Breakdown per Akt:
 
-### Opcje skrócenia:
+**AKT I: STABILIZACJA (3-4 tury)**
+- 3 tury × 20 min = ~60 min
+- **Czas: ~1h**
 
-1. **Mniej sezonów**
-   - 8 sezonów (2 lata) = 6 godzin ✅
+**PRZERWA**
+- **Czas: 15 min**
 
-2. **Szybsze tury**
-   - Planowanie: 10 min (zamiast 15)
-   - Rozstrzygnięcie: 10 min (zamiast 15)
-   - = ~30 min/turę
-   - 12 sezonów × 30 min = 6 godzin ✅
+**AKT II: ROZWÓJ (3-4 tury)**
+- 3 tury × 20 min = ~60 min
+- **Czas: ~1h**
 
-3. **Sesje podzielone**
-   - Gra w 2-3 sesjach (np. 3h każda)
-   - Między sesjami: Discord/email dla dyplomacji
+**AKT III: FINAŁ (2-3 tury)**
+- 2 tury × 20 min = ~40 min
+- **Czas: ~40 min - 1h**
 
-**⚠️ DO USTALENIA:** Optymalna długość gry i tury
+**TOTAL: 2h 55min - 3h 15min** ✅ Idealna długość!
+
+### Dlaczego to działa?
+
+1. **Krótsze tury** - skupienie na 1 głównej akcji (nie 3!)
+2. **Strukturaa Aktów** - naturalne przerwy dla scoreboardu
+3. **8-11 tur** - wystarczające aby osiągnąć 10 Punktów Postępu
+4. **2-3h** - nie za długo, nie za krótko (sweet spot!)
 
 ---
 
@@ -376,16 +444,24 @@ START TURY
 
 ## 📝 Status Dokumentu
 
-**Wersja:** 0.1 (Draft)
-**Status:** 🔄 W toku
-**Ostatnia aktualizacja:** 2026-01-03
+**Wersja:** 1.0 (Zaktualizowane po playteście #1)
+**Status:** ✅ AKTYWNE (do testowania)
+**Ostatnia aktualizacja:** 2026-01-07
 
-**Decyzje do podjęcia:**
+**Zmiany (7.01.2026):**
+- ✅ Dodano strukturę 3 Aktów (Stabilizacja, Rozwój, Finał)
+- ✅ Skrócono grę do 8-11 tur (2-3h zamiast 9h)
+- ✅ Dodano publiczne scoreboardy po każdym Akcie
+- ✅ Powiązano z nowym systemem Punktów Postępu
+
+**Decyzje do podjęcia (po playtestach):**
 - [ ] Optymalna długość tury (15 min planowanie OK?)
 - [ ] Jak rozwiązać problem czasu oczekiwania w Fazie 3?
 - [ ] Czy sezonowe modyfikatory są potrzebne?
-- [ ] Ile sezonów powinna trwać gra? (8? 12? 16?)
+- [ ] Ile dokładnie tur powinien trwać każdy Akt?
+
+**Autorzy:** Maro + Claude
 
 ---
 
-**Następne kroki:** Szczegóły Koła Fortuny (wheel_of_fortune.md) + System Zasobów (resources.md)
+**Następne kroki:** Szczegóły Koła Fortuny (wheel_of_fortune.md) + System Zasobów (resources.md) + System Punktów
