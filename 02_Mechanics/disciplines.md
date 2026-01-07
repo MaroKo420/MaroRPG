@@ -2,9 +2,9 @@
 
 ## 📐 Podstawy
 
-**Dyscypliny** to 5 kluczowych obszarów rozwo
+**✅ ZAKTUALIZOWANE - 7.01.2026**
 
-ju każdego kraju - **trzewia rozgrywki**.
+**Dyscypliny** to 5 kluczowych obszarów rozwoju każdego kraju - **trzewia rozgrywki**.
 
 ### 5 Dyscyplin:
 1. **MILITARIA** - siła zbrojna, obronność
@@ -15,25 +15,66 @@ ju każdego kraju - **trzewia rozgrywki**.
 
 ---
 
-## 🎲 Start Gry - Przypisanie Dyscyplin
+## 🎲 Start Gry - NOWY Balans Startowy (7.01.2026)
 
-### Każdy kraj startuje z:
-- **5 Dyscyplin** (po jednej z każdej kategorii)
-- **Minimum 2** są **NEGATYWNE** (problemy)
-- **Pozostałe** są **POZYTYWNE** (przewagi)
+### Problem z playtestu #1:
+- Gracze przegrali w turze 2 przez zbyt szybką degradację
+- 2-3 negatywne dyscypliny + automatyczna degradacja = frustracja
+- Brak czasu na naukę gry i strategię
 
-### Przykład: Federacja Północy (Start)
+### Nowe Rozwiązanie - Zbalansowany Start:
 
-| Dyscyplina       | Typ       | Lvl | Opis                                    |
-|------------------|-----------|-----|-----------------------------------------|
-| MILITARIA        | ⚠️ Problem| 1   | Słaba armia, przestarzała broń          |
-| CYWILIZACJA      | ✅ Przewaga| 1   | Rozwinięta infrastruktura, dobre drogi |
-| SPOŁECZEŃSTWO    | ⚠️ Problem| 1   | Głód, niezadowolenie społeczne          |
-| NAUKA            | ✅ Przewaga| 2   | Zaawansowane badania, dobra edukacja    |
-| ŚRODOWISKO       | ✅ Przewaga| 1   | Czyste powietrze, bogate zasoby         |
+**Każdy kraj startuje z DOKŁADNIE:**
+- **2 PROBLEMY** (Lvl 1/3 negatywne) ⚠️
+- **2 PRZEWAGI** (Lvl 3/3 pozytywne) ✅
+- **1 NEUTRALNA** (Lvl 2/3) ➖
 
-**2 problemy:** MILITARIA, SPOŁECZEŃSTWO
-**3 przewagi:** CYWILIZACJA, NAUKA, ŚRODOWISKO
+### Przykład: Federacja Północy (Nowy Start)
+
+| Dyscyplina       | Typ        | Lvl | Wskaźnik | Opis                                     |
+|------------------|------------|-----|----------|------------------------------------------|
+| MILITARIA        | ⚠️ Problem | 1   | [░░░]    | Słaba armia, przestarzała broń           |
+| CYWILIZACJA      | ➖ Neutralna| 2   | [▓▓░]    | Przeciętna infrastruktura                |
+| SPOŁECZEŃSTWO    | ⚠️ Problem | 1   | [░░░]    | Głód, niezadowolenie społeczne           |
+| NAUKA            | ✅ Przewaga| 3   | [▓▓▓]    | Rewolucja naukowa, zaawansowane badania  |
+| ŚRODOWISKO       | ✅ Przewaga| 3   | [▓▓▓]    | Czysta energia, zrównoważony rozwój      |
+
+**2 problemy (Lvl 1):** MILITARIA, SPOŁECZEŃSTWO
+**1 neutralna (Lvl 2):** CYWILIZACJA
+**2 przewagi (Lvl 3):** NAUKA, ŚRODOWISKO
+
+---
+
+## 🔄 NOWA Mechanika Degradacji (7.01.2026)
+
+### STARY SYSTEM (przed playtestem):
+- ❌ Automatyczna degradacja co 3/2/1 turę
+- ❌ Gracze nie nadążali z naprawą
+- ❌ Frustracja i przegrana w turze 2
+
+### NOWY SYSTEM (po playteście):
+**Problemy NIE degradują się automatycznie!** ✅
+
+**Degradacja następuje TYLKO gdy:**
+
+1. **Ignorowanie przez 2 tury z rzędu**
+   - Jeśli przez 2 tury nie próbujesz naprawić problemu → pogarsza się
+   - Przykład: SPOŁECZEŃSTWO Lvl 1 (Głód) → ignorowanie 2 tury → Lvl 2 (Zamieszki)
+
+2. **Eksploatacja**
+   - Gdy świadomie wykorzystujesz negatywną dyscyplinę dla zysku
+   - Przykład: Kraj ze ŚRODOWISKIEM Lvl 1 (Zanieczyszczenie) buduje więcej fabryk → degradacja do Lvl 2
+
+3. **Sabotaż przez inny kraj**
+   - Inny kraj atakuje twoją słabą dyscyplinę
+   - Przykład: Atak na kraj ze słabymi MILITARIAMI → pogorszenie
+
+### Dlaczego to działa lepiej?
+
+- ✅ Gracze mają czas na naukę gry (AKT I = tutorial)
+- ✅ Mogą planować strategię długoterminową
+- ✅ Problemy są wyzwaniem, nie karą
+- ✅ Degradacja ma sens narracyjny (ignorowanie/eksploatacja/sabotaż)
 
 ---
 
@@ -298,20 +339,25 @@ ju każdego kraju - **trzewia rozgrywki**.
 
 ---
 
-**Negatywne → Degradacja:**
-- Zaniedbywanie negatywnej Dyscypliny → automatycznie pogłębia się co X tur
-- Przykład: Głód (SPOŁECZEŃSTWO Lvl 1) → jeśli nie naprawisz przez 3 tury → przechodzi w Zamieszki (Lvl 2)
+**Negatywne → Degradacja (NOWY SYSTEM 7.01.2026):**
+- **NIE degradują się automatycznie!**
+- Degradacja TYLKO gdy:
+  1. Ignorowanie przez **2 tury z rzędu**
+  2. Świadoma eksploatacja (np. więcej fabryk mimo zanieczyszczenia)
+  3. Sabotaż przez inny kraj
+- Przykład: Głód (SPOŁECZEŃSTWO Lvl 1) → ignorowanie przez 2 tury → Zamieszki (Lvl 2)
 
-**Tempo degradacji:**
-- Lvl 1 → Lvl 2: 3 tury zaniedbania
-- Lvl 2 → Lvl 3: 2 tury zaniedbania
-- Lvl 3 → Przegrana: 1 tura zaniedbania
+**Tempo degradacji (tylko przy ignorowaniu):**
+- Lvl 1 → Lvl 2: 2 tury ignorowania
+- Lvl 2 → Lvl 3: 2 tury ignorowania
+- Lvl 3: Krytyczne (wymaga natychmiastowej naprawy!)
 
 **Jak naprawić?**
 - Dedykowana akcja "Naprawa Dyscypliny"
-- Koszt: zasoby + czas
-- Przykład: Naprawa Głodu → import żywności (koszt: 30 zasobów) → Koło Fortuny
-- Sukces: Lvl 2 → Lvl 1 (lub Lvl 1 → neutralny stan → można rozwijać)
+- Koszt: zasoby (zależne od poziomu problemu)
+- Przykład: Naprawa Głodu → import żywności + rolnictwo
+- Arbiter ocenia plan (1-3 punkty) + Koło Fortuny
+- Sukces: Lvl 2 → Lvl 1 lub Lvl 1 → Lvl 2 (neutralna)
 
 ---
 
