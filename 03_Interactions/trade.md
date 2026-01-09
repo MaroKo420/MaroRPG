@@ -13,7 +13,7 @@ Ten dokument będzie zawierał mechaniki handlu między krajami.
 ### 1. Wymiana Zasobów
 - Jak wygląda handel?
 - Czy są kursy wymiany?
-- Czy Arbiter zatwierdza transakcje?
+- Czy Guru zatwierdza transakcje?
 
 ### 2. Wymiana Technologii
 - Czy można wymieniać technologie?

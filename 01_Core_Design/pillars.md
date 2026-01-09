@@ -39,7 +39,7 @@
 - Najwięcej zabawy pochodzi z **interakcji z innymi graczami**
 - Dyplomacja, negocjacje, sojusze są **kluczowe**, nie opcjonalne
 - Mechaniki zachęcają do rozmów, układów, intryg
-- Arbiter facylituje interakcje, nie zastępuje ich
+- Guru facylituje interakcje, nie zastępuje ich
 
 **Mechaniki wspierające:**
 - Rola Dyplomaty (dedykowana do interakcji)
@@ -62,7 +62,7 @@
 **Co to znaczy:**
 - Każda sesja tworzy **unikalną historię**
 - Historie wyłaniają się z mechanik, nie są narzucone
-- Arbiter wplata akcje graczy w **spójną narrację**
+- Guru wplata akcje graczy w **spójną narrację**
 - Gracze zapamiętują "pamiętasz jak..." momenty
 
 **Mechaniki wspierające:**
@@ -117,7 +117,7 @@
 - Koło Fortuny (losowość)
 - Modyfikatory szans (technologia, wywiad, silne strony)
 - Akcje sekretne (nie wiesz co zrobią inni)
-- Arbiter rozstrzyga niejednoznaczności (element ludzkiego osądu)
+- Guru rozstrzyga niejednoznaczności (element ludzkiego osądu)
 - Emergentne efekty (nieprzewidziane kombinacje akcji)
 
 **Pytania testujące mechaniki:**
@@ -135,7 +135,7 @@
 |------------------------------|------------------------------------|--------------------------------------------------------------|
 | Strategiczna Głębia          | Nieprzewidywalność                 | Losowość modyfikowana przez decyzje                          |
 | Interakcje Gracze-Gracze     | Progresja (czas)                   | Fazy tury (czas na dyplomację wbudowany)                     |
-| Emergentna Narracja          | Strategiczna Głębia                | Arbiter interpretuje, nie narzuca                            |
+| Emergentna Narracja          | Strategiczna Głębia                | Guru interpretuje, nie narzuca                            |
 | Progresja i Ewolucja         | Interakcje (skupienie na sobie)    | Mechaniki wymagające współpracy/handlu                       |
 | Nieprzewidywalność           | Strategiczna Głębia                | Modyfikatory zmniejszają chaos                               |
 
@@ -234,7 +234,7 @@ Gdy projektujemy nową mechanikę, pytamy:
 
 5. **Nuda narracyjna**
    - Jeśli wyniki są ogłaszane jako "Kraj 1: sukces, Kraj 2: porażka" → złamanie Filaru 3
-   - Arbiter musi tworzyć narrację!
+   - Guru musi tworzyć narrację!
 
 ---
 

@@ -541,7 +541,7 @@ MAKSYMALNY KOSZT: 90 MAT, 60 EN (×3 minimalnego)
 
 ### FAZA 1: Planowanie (Początek)
 
-**Arbiter wykonuje dla KAŻDEGO kraju:**
+**Guru wykonuje dla KAŻDEGO kraju:**
 
 - [ ] Ogłoś nowy sezon
 - [ ] Oblicz produkcję zasobów (użyj wzoru):

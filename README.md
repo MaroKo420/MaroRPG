@@ -21,7 +21,7 @@
 - Przerwy między Aktami (15 min) z publicznym scoreboardem
 - Tury składają się z faz: planowanie → zgłoszenie → rozstrzygnięcie → ogłoszenie wyników
 
-### Arbiter (Kluczowa Rola)
+### Guru (Kluczowa Rola)
 - Przyjmuje **poufnie** plany od wszystkich grup
 - Ocenia jakość zgłoszeń na podstawie:
   - Wykorzystanej technologii
@@ -42,7 +42,7 @@
 Każdy kraj startuje z **dokładnie**:
 - **2 PROBLEMY** (Lvl 1/3 negatywne) - np. głód, słaba armia
 - **2 PRZEWAGI** (Lvl 3/3 pozytywne) - np. zaawansowana nauka, czyste środowisko
-- **1 NEUTRALNA** (Lvl 2/3) - przeciętny poziom
+- **1 STABILNA** (Lvl 2/3) - przeciętny poziom
 
 **Evolucja Dyscyplin (NOWY SYSTEM):**
 - Problemy **NIE degradują się automatycznie!**
@@ -66,7 +66,7 @@ Każdy kraj startuje z **dokładnie**:
 5. **🛡️ PRZETRWANIE** (4/5 Dyscyplin stabilnych) - Defensywna
 
 **System Punktów:**
-- Arbiter ocenia akcje: 1-3 punkty (genialny/solidny/podstawowy plan)
+- Guru ocenia akcje: 1-3 punkty (genialny/solidny/podstawowy plan)
 - Koło Fortuny może zmodyfikować: +/-1 punkt
 - Scoreboard publiczny po każdym Akcie
 
@@ -107,7 +107,7 @@ MaroRPG/
 │   ├── nation_template.md
 │   └── starting_disciplines.md
 │
-├── 06_Arbiter/                  ← Materiały dla Arbitra
+├── 06_Guru/                  ← Materiały dla Arbitra
 │   ├── arbiter_guide.md
 │   ├── evaluation_system.md
 │   └── news_reporting.md
@@ -126,7 +126,7 @@ MaroRPG/
 ## 🚀 Gdzie Zacząć?
 
 1. **Dla Projektantów Gry** → Zobacz [PLAN.md](PLAN.md) i [INFOGRAPHIC.md](INFOGRAPHIC.md)
-2. **Dla Arbitra** → Przejdź do [06_Arbiter/](06_Arbiter/)
+2. **Dla Arbitra** → Przejdź do [06_Guru/](06_Guru/)
 3. **Dla Graczy** → Sprawdź [07_Player_Materials/](07_Player_Materials/)
 4. **Zrozumieć Mechaniki** → Zobacz [02_Mechanics/](02_Mechanics/)
 
@@ -154,7 +154,7 @@ MaroRPG/
 
 > "Nie rozwijamy postaci - rozwijamy cywilizacje.
 > Każda decyzja ma wagę, każda pora roku zmienia świat.
-> Arbiter jest narratorem historii, którą piszą gracze."
+> Guru jest narratorem historii, którą piszą gracze."
 
 ---
 

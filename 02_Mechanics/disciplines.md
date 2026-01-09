@@ -27,20 +27,20 @@
 **Każdy kraj startuje z DOKŁADNIE:**
 - **2 PROBLEMY** (Lvl 1/3 negatywne) ⚠️
 - **2 PRZEWAGI** (Lvl 3/3 pozytywne) ✅
-- **1 NEUTRALNA** (Lvl 2/3) ➖
+- **1 STABILNA** (Lvl 2/3) ➖
 
 ### Przykład: Federacja Północy (Nowy Start)
 
 | Dyscyplina       | Typ        | Lvl | Wskaźnik | Opis                                     |
 |------------------|------------|-----|----------|------------------------------------------|
 | MILITARIA        | ⚠️ Problem | 1   | [░░░]    | Słaba armia, przestarzała broń           |
-| CYWILIZACJA      | ➖ Neutralna| 2   | [▓▓░]    | Przeciętna infrastruktura                |
+| CYWILIZACJA      | ➖ Stabilna| 2   | [▓▓░]    | Przeciętna infrastruktura                |
 | SPOŁECZEŃSTWO    | ⚠️ Problem | 1   | [░░░]    | Głód, niezadowolenie społeczne           |
 | NAUKA            | ✅ Przewaga| 3   | [▓▓▓]    | Rewolucja naukowa, zaawansowane badania  |
 | ŚRODOWISKO       | ✅ Przewaga| 3   | [▓▓▓]    | Czysta energia, zrównoważony rozwój      |
 
 **2 problemy (Lvl 1):** MILITARIA, SPOŁECZEŃSTWO
-**1 neutralna (Lvl 2):** CYWILIZACJA
+**1 stabilna (Lvl 2):** CYWILIZACJA
 **2 przewagi (Lvl 3):** NAUKA, ŚRODOWISKO
 
 ---
@@ -328,14 +328,14 @@
 ### Jak Dyscypliny się zmieniają?
 
 **Pozytywne → Rozwój:**
-- Wykorzystywanie Dyscypliny w akcjach → zyskujesz Punkty Progresji (PP)
-- Przykład: Budowa technologii naukowej → +3 PP do NAUKA
-- Po zebraniu X PP → Dyscyplina wchodzi na wyższy Lvl
+- Wykorzystywanie Dyscypliny w akcjach → zyskujesz Prestiż
+- Przykład: Budowa technologii naukowej → +3 Prestiżu do NAUKA
+- Po zebraniu X Prestiżu → Dyscyplina wchodzi na wyższy Lvl
 
 **Przykładowa skala:**
-- Lvl 1 → Lvl 2: 20 PP
-- Lvl 2 → Lvl 3: 40 PP
-- Lvl 3 → Lvl 4: 60 PP
+- Lvl 1 → Lvl 2: 20 Prestiżu
+- Lvl 2 → Lvl 3: 40 Prestiżu
+- Lvl 3 → Lvl 4: 60 Prestiżu
 
 ---
 
@@ -356,8 +356,8 @@
 - Dedykowana akcja "Naprawa Dyscypliny"
 - Koszt: zasoby (zależne od poziomu problemu)
 - Przykład: Naprawa Głodu → import żywności + rolnictwo
-- Arbiter ocenia plan (1-3 punkty) + Koło Fortuny
-- Sukces: Lvl 2 → Lvl 1 lub Lvl 1 → Lvl 2 (neutralna)
+- Guru ocenia plan (1-3 punkty) + Koło Fortuny
+- Sukces: Lvl 2 → Lvl 1 lub Lvl 1 → Lvl 2 (stabilna)
 
 ---
 
@@ -386,20 +386,20 @@
 - +5 PB/turę
 
 **Tura 2-5:** Federacja buduje technologie naukowe:
-- Tura 2: Fuzja Jądrowa (+5 PP)
-- Tura 4: Centrum Badawcze (+8 PP)
-- Tura 5: Współpraca z Imperium (+7 PP)
-- **Total: 20 PP → LVLUP!**
+- Tura 2: Fuzja Jądrowa (+5 Prestiżu)
+- Tura 4: Centrum Badawcze (+8 Prestiżu)
+- Tura 5: Współpraca z Imperium (+7 Prestiżu)
+- **Total: 20 Prestiżu → LVLUP!**
 
 **Lvl 2 osiągnięty (Tura 6):**
 - Zaawansowana nauka, AI w badaniach
 - +15 PB/turę, mnożnik ×1.5
 
 **Tura 6-12:** Federacja dalej inwestuje:
-- Tura 7: Komputer Kwantowy (+10 PP)
-- Tura 9: Przełom w fizyce (+12 PP)
-- Tura 11: Międzynarodowy Instytut (+18 PP)
-- **Total: 40 PP → LVLUP!**
+- Tura 7: Komputer Kwantowy (+10 Prestiżu)
+- Tura 9: Przełom w fizyce (+12 Prestiżu)
+- Tura 11: Międzynarodowy Instytut (+18 Prestiżu)
+- **Total: 40 Prestiżu → LVLUP!**
 
 **Lvl 3 osiągnięty (Tura 12):**
 - Rewolucja naukowa, AI prowadzi badania
@@ -407,10 +407,10 @@
 - **Odblokowane: Technologie Tier 3 (Terraformacja!)**
 
 **Tura 12-20:** Federacja buduje technologie dla Marsa:
-- Tura 14: Terraformacja Tier 1 (+15 PP)
-- Tura 16: Źródło Energii (Fuzja Plazmowa) (+20 PP)
-- Tura 18: Transport Kosmiczny (Silniki Ion) (+25 PP)
-- **Total: 60 PP → LVLUP!**
+- Tura 14: Terraformacja Tier 1 (+15 Prestiżu)
+- Tura 16: Źródło Energii (Fuzja Plazmowa) (+20 Prestiżu)
+- Tura 18: Transport Kosmiczny (Silniki Ion) (+25 Prestiżu)
+- **Total: 60 Prestiżu → LVLUP!**
 
 **Lvl 4 osiągnięty (Tura 20):**
 - Singularity Naukowa
@@ -516,7 +516,7 @@
 **Ostatnia aktualizacja:** 2026-01-09
 
 **Decyzje do podjęcia:**
-- [ ] Czy skala PP (20/40/60) jest zbalansowana?
+- [ ] Czy skala Prestiżu (20/40/60) jest zbalansowana?
 - [ ] Czy tempo degradacji (3/2/1 tury) jest OK?
 - [ ] Czy efekty na wyższych Lvl są wystarczająco rewarding?
 - [ ] Czy matryca interakcji Dyscyplin jest potrzebna?

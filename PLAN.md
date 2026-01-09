@@ -27,7 +27,7 @@ Stworzenie kompletnej, grywalnej gry RPG typu **nation-building** na papierze, �
 
 **Kluczowe Ustalenia:**
 - Tury = Pory Roku (brak progression przez epoki)
-- Arbiter przyjmuje poufnie plany, ocenia, ogłasza jako "newsy"
+- Guru przyjmuje poufnie plany, ocenia, ogłasza jako "newsy"
 - Dyscypliny (nie "sytuacje") to trzewia rozgrywki
 - Evolucja Dyscyplin: wykorzystywanie rozwija pozytywne, ale pogłębia negatywne
 
@@ -174,17 +174,17 @@ Stworzenie kompletnej, grywalnej gry RPG typu **nation-building** na papierze, �
 - [ ] **Przewodnik Arbitra**
   - Jak przygotować grę?
   - Jak prowadzić turę?
-  - [ ] Dokument: `06_Arbiter/arbiter_guide.md`
+  - [ ] Dokument: `06_Guru/arbiter_guide.md`
 
 - [ ] **System Oceny**
   - Tabele ocen dla Arbitra
   - Jak oceniać plany graczy?
-  - [ ] Dokument: `06_Arbiter/evaluation_system.md`
+  - [ ] Dokument: `06_Guru/evaluation_system.md`
 
 - [ ] **Ogłaszanie Newsów**
   - Jak pisać reportaże?
   - Przykłady newsów
-  - [ ] Dokument: `06_Arbiter/news_reporting.md`
+  - [ ] Dokument: `06_Guru/news_reporting.md`
 
 - [ ] **Rulebook (Księga Zasad)**
   - Kompletne zasady dla graczy

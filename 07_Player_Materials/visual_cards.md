@@ -65,7 +65,7 @@ LEGENDA:
 ║                    🔬 NAUKA - POZYTYWNA                            ║
 ╠════════════════════════════════════════════════════════════════════╣
 ║  AKTUALNY POZIOM: 3 - Rewolucja Naukowa                           ║
-║  PROGRES:  [▓▓▓▓▓▓▓▓▓░░░░░] 35/60 PP do Lvl 4                     ║
+║  PROGRES:  [▓▓▓▓▓▓▓▓▓░░░░░] 35/60 Prestiżu do Lvl 4                     ║
 ╠════════════════════════════════════════════════════════════════════╣
 ║  📊 OBECNE EFEKTY:                                                 ║
 ║    • +30 Punktów Badawczych/turę                                   ║
@@ -79,8 +79,8 @@ LEGENDA:
 ║    • Dedykuj akcje na badania → +PP                                ║
 ║                                                                    ║
 ║  📈 PROGRESJA DO NASTĘPNEGO POZIOMU:                               ║
-║    Potrzeba: 60 PP (masz 35 PP)                                    ║
-║    Pozostało: 25 PP                                                ║
+║    Potrzeba: 60 Prestiżu (masz 35 Prestiżu)                                    ║
+║    Pozostało: 25 Prestiżu                                                ║
 ║    Szacowany czas: ~3-5 tur (przy obecnym tempie)                  ║
 ╠════════════════════════════════════════════════════════════════════╣
 ║  🔓 CO SIĘ ODBLOKUJE NA LVL 4:                                     ║
@@ -168,7 +168,7 @@ LEGENDA:
 ╠════════════════════════════════════════════════════════════════════╣
 ║  🎁 EFEKTY PO ZBUDOWANIU:                                          ║
 ║    • +30 Energii/turę (czysta, niezawodna)                         ║
-║    • +5 PP do NAUKA                                                ║
+║    • +5 Prestiżu do NAUKA                                                ║
 ║    • Odblokowanie: Reaktory Plazmowe (Tier 3)                      ║
 ║    • Nieznaczny wpływ na ŚRODOWISKO (-2 zasoby/turę)              ║
 ╠════════════════════════════════════════════════════════════════════╣
@@ -211,7 +211,7 @@ LEGENDA:
 ║    • Win Condition: Mars Colony możliwa!                           ║
 ╠════════════════════════════════════════════════════════════════════╣
 ║  📊 JAK ODBLOKOWAĆ:                                                ║
-║    1. Rozwiń NAUKA do Lvl 4 (potrzeba 25 PP)                      ║
+║    1. Rozwiń NAUKA do Lvl 4 (potrzeba 25 Prestiżu)                      ║
 ║    2. Napraw ŚRODOWISKO (Lvl 2 NEG → Lvl 1 NEG → Lvl 1 POS...)   ║
 ║    3. Zbuduj: Terraformacja Tier 1 → Tier 2                       ║
 ║    4. Zbuduj: Reaktory Plazmowe                                    ║
@@ -261,8 +261,8 @@ LEGENDA:
 ║                                                                    ║
 ║  6️⃣ DEDYKOWANY ROZWÓJ DYSCYPLINY                                   ║
 ║     • Wybierz pozytywną dyscyplinę                                ║
-║     • Inwestuj zasoby → zdobywaj Punkty Progresji (PP)            ║
-║     • Przykład: Inwestycja w NAUKA → +10 PP                       ║
+║     • Inwestuj zasoby → zdobywaj Prestiż            ║
+║     • Przykład: Inwestycja w NAUKA → +10 Prestiżu                       ║
 ║                                                                    ║
 ║  7️⃣ AKCJA SPECJALNA (zależna od sytuacji)                         ║
 ║     • Np. Reakcja na wydarzenie                                   ║
@@ -478,7 +478,7 @@ LEGENDA:
 ║    • Masz 5 DYSCYPLIN (obszary rozwoju kraju)                      ║
 ║    • 2 są NEGATYWNE (Lvl 1/3 - problemy do rozwiązania)            ║
 ║    • 2 są POZYTYWNE (Lvl 3/3 - twoje przewagi)                     ║
-║    • 1 jest NEUTRALNA (Lvl 2/3 - przeciętna)                       ║
+║    • 1 jest STABILNA (Lvl 2/3 - przeciętna)                       ║
 ║                                                                    ║
 ║  📊 DYSCYPLINY:                                                    ║
 ║    ⚔️  MILITARIA - armia, obrona                                   ║
@@ -500,8 +500,8 @@ LEGENDA:
 ║  ⚠️ KLUCZOWE ZASADY:                                               ║
 ║                                                                    ║
 ║    1. POZYTYWNE DYSCYPLINY:                                        ║
-║       • Rozwijasz je używając → zdobywasz Punkty Progresji (PP)   ║
-║       • Po zebraniu wystarczająco PP → LVLUP!                      ║
+║       • Rozwijasz je używając → zdobywasz Prestiż   ║
+║       • Po zebraniu wystarczająco Prestiżu → LVLUP!                      ║
 ║       • Lvl 1 → Lvl 2 → Lvl 3 → Lvl 4                              ║
 ║                                                                    ║
 ║    2. NEGATYWNE DYSCYPLINY (NOWY SYSTEM 7.01.26):                 ║

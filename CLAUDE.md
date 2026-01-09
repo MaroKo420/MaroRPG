@@ -35,8 +35,8 @@ README.md, PLAN.md, INFOGRAPHIC.md, AKTUALIZACJA_2026-01-07.md
 # Nations (szkielety)
 05_Nations/nation_template.md, starting_disciplines.md
 
-# Arbiter (szkielety)
-06_Arbiter/arbiter_guide.md, evaluation_system.md, news_reporting.md
+# Guru (szkielety)
+06_Guru/arbiter_guide.md, evaluation_system.md, news_reporting.md
 
 # Player Materials (szkielety)
 07_Player_Materials/rulebook.md, player_aids.md
@@ -67,19 +67,19 @@ Po każdej istotnej zmianie zaktualizuj checklisty w PLAN.md.
 03_Interactions/    ← Interakcje: dyplomacja, handel, wojny, wywiad
 04_Progression/     ← Rozwój: technologie, futurystyka, ewolucja
 05_Nations/         ← Definicje 5 krajów
-06_Arbiter/         ← Materiały dla Arbitra (MG)
+06_Guru/         ← Materiały dla Guru
 07_Player_Materials/← Materiały dla graczy
 08_Playtesting/     ← Testy i feedback
 ```
 
 ### Kluczowe Koncepty Gry
 
-**Gracze:** 5 krajów × 3 role (Lider, Dyplomata, Generał) + 1 Arbiter = 16 osób
+**Gracze:** 5 krajów × 3 role (Lider, Dyplomata, Generał) + 1 Guru = 16 osób
 
 **Tury:** 1 tura = 1 pora roku, 4 fazy (planowanie → zgłoszenie → rozstrzygnięcie → newsy)
 
 **5 Dyscyplin:** MILITARIA, CYWILIZACJA, SPOŁECZEŃSTWO, NAUKA, ŚRODOWISKO
-- Każdy kraj: 2 problemy + 3 przewagi (lub 2+2+1 neutralna)
+- Każdy kraj: 2 problemy + 3 przewagi (lub 2+2+1 stabilna)
 - Ewolucja: Lvl 1→2→3→4, degradacja przy zaniedbaniu
 
 **4 Zasoby:** MAT (materiały), EN (energia), PB (punkty badawcze), LUD (ludność)
@@ -129,7 +129,7 @@ Przy projektowaniu gry RPG kluczowe jest **wizualne przedstawianie** złożonych
 **Mapy i schematy:**
 - Relacje między krajami
 - Struktura grupy (Lider/Dyplomata/Generał)
-- Flow informacji (gracze → Arbiter → newsy)
+- Flow informacji (gracze → Guru → newsy)
 
 ### Format wizualizacji:
 
@@ -154,4 +154,4 @@ Przykład diagramu ASCII:
 1. **Drzewo technologii** - szczegółowe Tier 1-4
 2. **Definicje 5 krajów** - unikalne profile
 3. **Sekcja świata** - opis "Futurystycznej Ziemi"
-4. **Sekrety Arbitra** - co MG wie, czego gracze nie wiedzą
+4. **Sekrety Guru** - co Guru wie, czego gracze nie wiedzą

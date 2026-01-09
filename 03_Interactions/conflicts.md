@@ -156,7 +156,7 @@ Wojna osłabia WSZYSTKIE dyscypliny:
 
 ### Koncepcja
 
-Co turę Arbiter ogłasza **Sytuację na Świecie** - wydarzenia globalne, które wpływają na wszystkie kraje.
+Co turę Guru ogłasza **Sytuację na Świecie** - wydarzenia globalne, które wpływają na wszystkie kraje.
 
 | Typ Sytuacji | Przykład | Wpływ |
 |--------------|----------|-------|

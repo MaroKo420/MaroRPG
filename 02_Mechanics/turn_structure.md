@@ -29,7 +29,7 @@ Gra toczy się w **sezonach** (wiosna, lato, jesień, zima), a każdy sezon to j
 │     • Planują długoterminową strategię                         │
 │     • Wybierają ścieżkę zwycięstwa                             │
 │                                                                 │
-│  📊 SCOREBOARD → Arbiter pokazuje publiczne punkty             │
+│  📊 SCOREBOARD → Guru pokazuje publiczne punkty             │
 │                                                                 │
 │  ☕ PRZERWA (15 minut)                                          │
 │     • Krótki odpoczynek                                        │
@@ -42,7 +42,7 @@ Gra toczy się w **sezonach** (wiosna, lato, jesień, zima), a każdy sezon to j
 │     • Intensywne interakcje międzynarodowe                     │
 │     • Sojusze i konflikty                                      │
 │                                                                 │
-│  📊 SCOREBOARD → Arbiter pokazuje punkty, wyścig się zaostrza  │
+│  📊 SCOREBOARD → Guru pokazuje punkty, wyścig się zaostrza  │
 │                                                                 │
 │  🏆 AKT III: FINAŁ (2-3 tury) ~ 1-2h                           │
 │     • Wyścig do 10 Punktów Postępu!                            │
@@ -161,10 +161,10 @@ AKCJE SEKRETNE:
 ### Co się dzieje:
 
 1. **Każdy kraj oddaje swoją kartkę Arbitrowi** (poufnie)
-   - Arbiter zbiera wszystkie 5 kartek
+   - Guru zbiera wszystkie 5 kartek
    - Inne kraje **nie wiedzą** co zaplanowały inne nacje (chyba że Dyplomaci się porozumieli)
 
-2. **Arbiter pobieżnie czyta wszystkie plany** (szybka lektura)
+2. **Guru pobieżnie czyta wszystkie plany** (szybka lektura)
 
 3. **Gracze mają chwilę przerwy**
    - Mogą kontynuować dyplomatyczne rozmowy
@@ -172,16 +172,16 @@ AKCJE SEKRETNE:
 
 ### Output Fazy 2:
 
-- Arbiter ma wszystkie 5 kartek z planami
+- Guru ma wszystkie 5 kartek z planami
 - Gracze czekają na rozstrzygnięcie
 
 ---
 
 ## 🎰 FAZA 3: ROZSTRZYGNIĘCIE ARBITRA (10-20 minut)
 
-**⚠️ To WĄSKIE GARDŁO gry - Arbiter potrzebuje czasu na analizę**
+**⚠️ To WĄSKIE GARDŁO gry - Guru potrzebuje czasu na analizę**
 
-### Co robi Arbiter:
+### Co robi Guru:
 
 1. **Czyta wszystkie plany szczegółowo**
    - Analizuje co każdy kraj chce zrobić
@@ -229,7 +229,7 @@ AKCJE SEKRETNE:
 **Propozycje aktywności:**
 - 🗣️ **Mini-Dyplomacja** - Dyplomaci mogą negocjować na przyszłe tury
 - 📊 **Planowanie długoterminowe** - grupy myślą o strategii na kolejne 2-3 tury
-- 🎲 **Mini-event** - Arbiter może dać graczom krótkie zadanie/quiz (opcjonalnie)
+- 🎲 **Mini-event** - Guru może dać graczom krótkie zadanie/quiz (opcjonalnie)
 - ☕ **Przerwa** - po prostu odpoczynek
 
 **⚠️ DO USTALENIA:** Jak rozwiązać problem czasu oczekiwania?
@@ -240,7 +240,7 @@ AKCJE SEKRETNE:
 
 ### Co się dzieje:
 
-1. **Arbiter ogłasza "newsy" publicznie**
+1. **Guru ogłasza "newsy" publicznie**
    - Czyta przygotowane reportaże
    - Opowiada o wydarzeniach tury w formie narracyjnej
    - **WYJĄTEK:** Akcje sekretne NIE są ogłaszane publicznie
@@ -277,7 +277,7 @@ ale efekty są gorsze niż oczekiwano.
 (Konfederacja: Częściowy sukces - zanieczyszczenie lekko zredukowane) ⚠️
 
 AKCJE SEKRETNE:
-[Arbiter przekazuje wyniki akcji wywiadowczych prywatnie do odpowiednich krajów]
+[Guru przekazuje wyniki akcji wywiadowczych prywatnie do odpowiednich krajów]
 "
 
 2. **Gracze reagują na wyniki**
@@ -286,7 +286,7 @@ AKCJE SEKRETNE:
    - Aktualizują punkty zwycięstwa (jeśli używane)
    - Dodają/odejmują zasoby
 
-3. **Arbiter aktualizuje stan świata**
+3. **Guru aktualizuje stan świata**
    - Publiczna tablica z informacjami o:
      - Który sezon/rok
      - Punkty zwycięstwa (jeśli publiczne)
@@ -307,7 +307,7 @@ Po Fazie 4, gra przechodzi do następnego sezonu:
 
 **Wiosna → Lato → Jesień → Zima** (= 1 rok)
 
-1. Arbiter ogłasza nowy sezon
+1. Guru ogłasza nowy sezon
 2. Jeśli to koniec roku (po Zimie) → może być specjalny event roczny
 3. Gracze zaczynają FAZĘ 1 dla nowego sezonu
 
@@ -328,12 +328,12 @@ START TURY
 ┌─────────────────────────────────────┐
 │  FAZA 2: ZGŁOSZENIE (5 min)         │
 │  • Oddanie kartek Arbitrowi         │
-│  • Arbiter czyta pobieżnie          │
+│  • Guru czyta pobieżnie          │
 └──────────────┬──────────────────────┘
                ▼
 ┌─────────────────────────────────────┐
 │  FAZA 3: ROZSTRZYGNIĘCIE (15 min)   │
-│  Arbiter:                            │
+│  Guru:                            │
 │  • Analizuje plany                  │
 │  • Określa kolejność                │
 │  • Ocenia jakość                    │
@@ -347,7 +347,7 @@ START TURY
                ▼
 ┌─────────────────────────────────────┐
 │  FAZA 4: OGŁOSZENIE (10 min)        │
-│  • Arbiter czyta newsy              │
+│  • Guru czyta newsy              │
 │  • Gracze aktualizują arkusze      │
 │  • Reakcje na wyniki                │
 └──────────────┬──────────────────────┘

@@ -11,7 +11,7 @@ Ten plik zawiera uzupełniające informacje o evolucji Dyscyplin.
 ## 🎯 Dodatkowe Tabele (Do Opracowania)
 
 ### Tabela Progresji dla każdej Dyscypliny
-- Szczegółowe wymagania PP (Punkty Progresji)
+- Szczegółowe wymagania Prestiż
 - Dokładne efekty na każdym Lvl
 - Odblokowane technologie
 

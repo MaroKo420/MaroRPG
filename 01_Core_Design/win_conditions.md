@@ -15,7 +15,7 @@ Po pierwszym playteście i analizie zdecydowano o **5 Ścieżkach Zwycięstwa** 
 Każdy kraj dąży do zdobycia **10 Punktów Postępu** w wybranej ścieżce zwycięstwa.
 
 **System Punktów Postępu:**
-- Arbiter ocenia każdą akcję kraju i przyznaje **1-3 punkty** zależnie od jakości planu
+- Guru ocenia każdą akcję kraju i przyznaje **1-3 punkty** zależnie od jakości planu
 - Koło Fortuny może dodać lub odjąć **+/-1 punkt**
 - Punkty są **widoczne dla wszystkich** (publiczny scoreboard po każdym Akcie)
 
@@ -143,9 +143,9 @@ Każdy kraj dąży do zdobycia **10 Punktów Postępu** w wybranej ścieżce zwy
 
 ## 📊 System Punktów Postępu
 
-### Jak Arbiter Ocenia Akcje?
+### Jak Guru Ocenia Akcje?
 
-**Arbiter przyznaje punkty na podstawie jakości planu:**
+**Guru przyznaje punkty na podstawie jakości planu:**
 
 | Jakość Planu           | Punkty | Opis                                                      |
 |------------------------|--------|-----------------------------------------------------------|
@@ -162,7 +162,7 @@ Każdy kraj dąży do zdobycia **10 Punktów Postępu** w wybranej ścieżce zwy
 ### Przykład:
 
 Kraj planuje zbudować **Fuzję Jądrową** (technologia Tier 2)
-- Arbiter ocenia plan jako **Solidny** → **2 punkty**
+- Guru ocenia plan jako **Solidny** → **2 punkty**
 - Rzut Kołem Fortuny: **85** (Sukces) → bez zmian
 - **FINALNE: 2 punkty do ścieżki "Hegemonia Naukowa"**
 
@@ -174,18 +174,18 @@ Kraj planuje zbudować **Fuzję Jądrową** (technologia Tier 2)
 - Gracze uczą się gry
 - Ratują początkowe problemy
 - Planują długoterminową strategię
-- **SCOREBOARD:** Arbiter pokazuje punkty po Akcie I
+- **SCOREBOARD:** Guru pokazuje punkty po Akcie I
 
 ### PRZERWA (15 min)
 - Krótka przerwa
-- Arbiter pokazuje **publiczny scoreboard** z punktami wszystkich krajów
+- Guru pokazuje **publiczny scoreboard** z punktami wszystkich krajów
 - Gracze mogą negocjować, planować sojusze
 
 ### AKT II: ROZWÓJ (3-4 tury)
 - Kraje dążą do swoich celów
 - Rozwój dyscyplin i technologii
 - Interakcje międzynarodowe
-- **SCOREBOARD:** Arbiter pokazuje punkty po Akcie II
+- **SCOREBOARD:** Guru pokazuje punkty po Akcie II
 
 ### AKT III: FINAŁ (2-3 tury)
 - Wyścig do 10 punktów
@@ -283,8 +283,8 @@ Kraj planuje zbudować **Fuzję Jądrową** (technologia Tier 2)
 - NAUKA: Lvl 2 (pozytywna)
 - SPOŁECZEŃSTWO: Lvl 1 (negatywna - Głód)
 - MILITARIA: Lvl 1 (negatywna)
-- CYWILIZACJA: Lvl 2 (neutralna)
-- ŚRODOWISKO: Lvl 1 (neutralna)
+- CYWILIZACJA: Lvl 2 (stabilna)
+- ŚRODOWISKO: Lvl 1 (stabilna)
 
 **AKT I (Tura 1-3): Stabilizacja**
 - Tura 1: Naprawa SPOŁECZEŃSTWO (Głód → stabilne) → **2 punkty** (solidny plan + sukces)

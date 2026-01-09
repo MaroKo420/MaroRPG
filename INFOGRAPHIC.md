@@ -119,7 +119,7 @@ FAZA 2: ZGŁOSZENIE
                         ▼
 FAZA 3: ROZSTRZYGNIĘCIE ARBITRA
 ┌────────────────────────────────────────────────────┐
-│ Arbiter (w sekrecie):                              │
+│ Guru (w sekrecie):                              │
 │ 1. Czyta wszystkie plany                          │
 │ 2. Ocenia jakość zgłoszeń:                        │
 │    • Wykorzystanie technologii                     │
@@ -134,7 +134,7 @@ FAZA 3: ROZSTRZYGNIĘCIE ARBITRA
                         ▼
 FAZA 4: OGŁOSZENIE WYNIKÓW
 ┌────────────────────────────────────────────────────┐
-│ Arbiter ogłasza "NEWSY" publicznie:                │
+│ Guru ogłasza "NEWSY" publicznie:                │
 │ • Reportaż opisujący wydarzenia tury              │
 │ • Co się udało, co nie                             │
 │ • (Akcje sekretne - NIE ogłaszane)                │
@@ -160,7 +160,7 @@ FAZA 4: OGŁOSZENIE WYNIKÓW
 │  ✓ Wykorzystanie silnych stron (+)              │
 │  ✗ Problemy w Dyscyplinach (-)                  │
 │                                                 │
-│  Gracze kręcą kołem → Arbiter ogłasza wynik     │
+│  Gracze kręcą kołem → Guru ogłasza wynik     │
 └─────────────────────────────────────────────────┘
 ```
 
@@ -304,7 +304,7 @@ MaroRPG/
 │   ├── nation_4.md              [Kraj 4]
 │   └── nation_5.md              [Kraj 5]
 │
-├── 06_Arbiter/ ◄──────────────[ETAP 6]
+├── 06_Guru/ ◄──────────────[ETAP 6]
 │   ├── arbiter_guide.md         [Przewodnik Arbitra]
 │   ├── evaluation_system.md     [System oceny]
 │   └── news_reporting.md        [Pisanie newsów]
@@ -486,15 +486,15 @@ MaroRPG/
 ║  👥 GRACZE                                                         ║
 ║  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ║
 ║  Każdy kraj: 3 osoby (Lider, Dyplomata, Generał)                  ║
-║  + 1 Arbiter (narrator, rozstrzygający)                            ║
+║  + 1 Guru (narrator, rozstrzygający)                            ║
 ║                                                                    ║
 ║  🎮 MECHANIKA (CO ROBIĄ GRACZE?)                                   ║
 ║  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ║
 ║  KAŻDA TURA:                                                       ║
 ║  1. PLANOWANIE (15 min) - grupa dyskutuje, spisuje plan           ║
 ║  2. ZGŁOSZENIE - oddanie planu Arbitrowi (poufnie)                ║
-║  3. ROZSTRZYGNIĘCIE - Arbiter ocenia, Koło Fortuny                ║
-║  4. NEWSY - Arbiter ogłasza wyniki jako reportaż                  ║
+║  3. ROZSTRZYGNIĘCIE - Guru ocenia, Koło Fortuny                ║
+║  4. NEWSY - Guru ogłasza wyniki jako reportaż                  ║
 ║                                                                    ║
 ║  📊 5 DYSCYPLIN (Serce Gry)                                        ║
 ║  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ║
@@ -505,7 +505,7 @@ MaroRPG/
 ║  🌍 ŚRODOWISKO      - ekologia, zasoby                             ║
 ║                                                                    ║
 ║  Każda: POZYTYWNA (przewaga) lub NEGATYWNA (problem)               ║
-║  Start (NOWY 7.01.26): 2 problemy, 2 przewagi, 1 neutralna        ║
+║  Start (NOWY 7.01.26): 2 problemy, 2 przewagi, 1 stabilna        ║
 ║  Evolucja: Lvl 0 → 1 → 2 → 3 → 4                                   ║
 ║                                                                    ║
 ║  🎲 KOŁO FORTUNY (Jak rozstrzygać?)                                ║
@@ -524,7 +524,7 @@ MaroRPG/
 ║  3. ⚔️  IMPERIUM MILITARNE (Militaria + 2 stabilne) - ⭐⭐⭐⭐⭐     ║
 ║  4. 🕊️  FEDERACJA POKOJU (3+ kraje w sojuszu) - ⭐⭐⭐ (wspólne!) ║
 ║  5. 🛡️  PRZETRWANIE (4/5 dyscyplin stabilnych) - ⭐⭐              ║
-║  Punkty: Arbiter ocenia (1-3) + Koło Fortuny (+/-1)               ║
+║  Punkty: Guru ocenia (1-3) + Koło Fortuny (+/-1)               ║
 ║                                                                    ║
 ║  🌳 TECHNOLOGIE                                                    ║
 ║  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ║

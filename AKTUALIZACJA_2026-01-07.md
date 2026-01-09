@@ -17,7 +17,7 @@
 ### 2. Struktura 3 Aktów (2-3h, 8-11 tur)
 
 - **AKT I: STABILIZACJA** (3-4 tury) - nauka gry, ratowanie problemów
-- **PRZERWA** (15 min) - Arbiter pokazuje scoreboard
+- **PRZERWA** (15 min) - Guru pokazuje scoreboard
 - **AKT II: ROZWÓJ** (3-4 tury) - dążenie do celu
 - **AKT III: FINAŁ** (2-3 tury) - wyścig do 10 punktów
 
@@ -28,7 +28,7 @@
 **Problem z testowej rozgrywki:** Gracze przegrali w turze 2
 
 **Nowe rozwiązanie:**
-- Każdy kraj startuje: 2 problemy (1/3), 2 przewagi (3/3), 1 neutralna (2/3)
+- Każdy kraj startuje: 2 problemy (1/3), 2 przewagi (3/3), 1 stabilna (2/3)
 - Problemy NIE pogarszają się automatycznie
 - Degradacja tylko gdy: ignorowanie 2 tury / eksploatacja / sabotaż
 
@@ -36,7 +36,7 @@
 
 ### 4. System Punktów (widoczny dla wszystkich)
 
-**Arbiter ocenia akcje:**
+**Guru ocenia akcje:**
 - 3 punkty = Genialny plan
 - 2 punkty = Solidny plan  
 - 1 punkt = Podstawowy plan

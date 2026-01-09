@@ -12,8 +12,8 @@
 
 ### Podstawowy Flow:
 
-1. **Arbiter ocenia plan gracza** (scoring)
-2. **Arbiter określa bazowe szanse powodzenia**
+1. **Guru ocenia plan gracza** (scoring)
+2. **Guru określa bazowe szanse powodzenia**
 3. **Gracze kręcą Kołem Fortuny**
 4. **Wynik: Sukces / Częściowy Sukces / Porażka**
 
@@ -44,7 +44,7 @@
 
 ## 📊 Modyfikatory Szans
 
-### Arbiter modyfikuje bazowe szanse na podstawie:
+### Guru modyfikuje bazowe szanse na podstawie:
 
 | Kryterium                           | Modyfikator     | Przykład                                    |
 |-------------------------------------|-----------------|---------------------------------------------|
@@ -87,7 +87,7 @@
 **Wynik kręcenia:** ✅ **SUKCES!**
 - Centrum Badawcze zbudowane
 - NAUKA Lvl 1 → 2
-- +20 PP do NAUKA
+- +20 Prestiżu do NAUKA
 
 ---
 
@@ -111,7 +111,7 @@
 **Wynik kręcenia:** ❌ **PORAŻKA!**
 - Atak odparty
 - Liga traci 20 jednostek broni
-- -10 PP do MILITARIA (degradacja)
+- -10 Prestiżu do MILITARIA (degradacja)
 - SPOŁECZEŃSTWO Ligi: Lvl 2 → 3 (zamieszki po przegranej)
 
 ---
@@ -137,7 +137,7 @@
 - Głód lekko złagodzony, ale nie rozwiązany
 - SPOŁECZEŃSTWO: Lvl 2 (pozostaje, ale stabilizacja - nie degraduje przez 2 tury)
 - Koszt: 50 zasobów (wydane)
-- Arbiter: "Żywność dotarła, ale chaos w dystrybucji. Ludzie nadal głodni, ale sytuacja się poprawia."
+- Guru: "Żywność dotarła, ale chaos w dystrybucji. Ludzie nadal głodni, ale sytuacja się poprawia."
 
 ---
 
@@ -148,7 +148,7 @@
 **Opis:**
 - Fizyczne koło z 3 sekcjami (Sukces/Częściowy/Porażka)
 - Sekcje są różnej wielkości (zgodnie z modyfikatorami)
-- Arbiter zmienia rozmiary sekcji przed kręceniem
+- Guru zmienia rozmiary sekcji przed kręceniem
 
 **Plusy:**
 - ✅ Bardzo teatralne, ekscytujące
@@ -164,7 +164,7 @@
 
 **Opis:**
 - Rzut 2 kostkami d10 (dziesiętne + jedności) = wynik 1-100
-- Arbiter określa przedziały:
+- Guru określa przedziały:
   - Przykład: 1-70 = Sukces, 71-95 = Częściowy, 96-100 = Porażka
 
 **Plusy:**
@@ -182,7 +182,7 @@
 
 **Opis:**
 - Talia 100 kart: 50 Sukces, 30 Częściowy, 20 Porażka (bazowo)
-- Arbiter dodaje/usuwa karty na podstawie modyfikatorów
+- Guru dodaje/usuwa karty na podstawie modyfikatorów
 - Gracz losuje 1 kartę
 
 **Plusy:**
@@ -199,7 +199,7 @@
 
 **Opis:**
 - Aplikacja mobilna lub web
-- Arbiter wprowadza modyfikatory
+- Guru wprowadza modyfikatory
 - Gracze klikają "Kręć" - animacja koła
 
 **Plusy:**
@@ -217,8 +217,8 @@
 
 **Proponuję OPCJĘ B (d100) + wizualizacja na papierze:**
 
-1. **Arbiter rzuca d100** (lub gracze rzucają)
-2. **Przed rzutem** - Arbiter pokazuje przedziały na kartce:
+1. **Guru rzuca d100** (lub gracze rzucają)
+2. **Przed rzutem** - Guru pokazuje przedziały na kartce:
    ```
    1-70  : ✅ SUKCES
    71-95 : ⚠️ CZĘŚCIOWY
@@ -259,7 +259,7 @@ Niektóre akcje NIE wymagają Koła Fortuny:
 - Proste negocjacje (nie ma konfliktu)
 - Akcje wspierane przez bardzo wysokie modyfikatory (+95%)
 
-**Arbiter decyduje:** Jeśli szanse Sukcesu > 95% → automatyczny sukces
+**Guru decyduje:** Jeśli szanse Sukcesu > 95% → automatyczny sukces
 
 ---
 
@@ -270,7 +270,7 @@ Niektóre akcje są niemożliwe:
 - Technologia jeszcze nie odkryta
 - Fizycznie niemożliwe (np. lot na Marsa bez statku)
 
-**Arbiter decyduje:** Akcja odrzucona przed kręceniem
+**Guru decyduje:** Akcja odrzucona przed kręceniem
 
 ---
 
@@ -304,7 +304,7 @@ Niektóre akcje są niemożliwe:
 - [ ] Pokaż graczom przedziały (transparentność!)
 
 **Kręcenie:**
-- [ ] Gracz rzuca d100 (lub Arbiter)
+- [ ] Gracz rzuca d100 (lub Guru)
 - [ ] Odczytaj wynik
 - [ ] Ogłoś: Sukces / Częściowy / Porażka
 

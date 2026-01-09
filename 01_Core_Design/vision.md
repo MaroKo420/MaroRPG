@@ -20,7 +20,7 @@
    - Konieczność koordynacji i kompromisów
    - Różne perspektywy na ten sam problem
 
-3. **Arbiter jako Narrator**
+3. **Guru jako Narrator**
    - Nie przeciwnik, ale opowiadacz historii
    - Tworzy narrację na podstawie akcji graczy
    - Wprowadza element nieprzewidywalności (Koło Fortuny)
@@ -74,7 +74,7 @@
    - Namacalny flow czasu
    - Długoterminowe planowanie (4 tury = 1 rok)
 
-3. **Arbiter tworzy narrację**
+3. **Guru tworzy narrację**
    - Gra staje się opowieścią
    - Każda sesja to unikalna historia
 
@@ -132,11 +132,11 @@
 ### 2. INTERAKCJE GRACZE-GRACZE
 - Dyplomacja, handel, intrygi, konflikty
 - Mechaniki zachęcające do rozmów między graczami
-- Arbiter facylituje, nie kontroluje
+- Guru facylituje, nie kontroluje
 
 ### 3. EMERGENTNA NARRACJA
 - Gra tworzy unikalne historie
-- Arbiter wplata akcje graczy w spójną narrację
+- Guru wplata akcje graczy w spójną narrację
 - Każda sesja to inna opowieść
 
 ### 4. PROGRESJA I EWOLUCJA
@@ -171,7 +171,7 @@
    - Gra o skali makro, nie mikro
 
 2. **Nie jest grą bez Arbitra**
-   - Arbiter jest kluczowy dla narracji
+   - Guru jest kluczowy dla narracji
    - Nie da się grać bez narratora
 
 3. **Nie jest czysto kompetytywna**
@@ -219,7 +219,7 @@
 - Lubi gry na 3-5 godzin
 
 ### Wielkość Grupy:
-- **Minimum:** 16 osób (5 krajów × 3 role + Arbiter)
+- **Minimum:** 16 osób (5 krajów × 3 role + Guru)
 - **Maksimum:** 16 osób
 - **Optymalnie:** Pełna sesja z 5 krajami
 
@@ -233,7 +233,7 @@
 
 > "W MaroRPG nie pytasz 'co zrobię w tej turze?' - pytasz 'co zrobi mój naród?'"
 
-> "Arbiter nie decyduje o Twojej historii. Arbiter ją opowiada."
+> "Guru nie decyduje o Twojej historii. Guru ją opowiada."
 
 ---
 

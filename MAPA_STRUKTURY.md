@@ -15,8 +15,8 @@
 | 4 | Zasady szczegółowe | 🟨 | `conflicts.md`, `diplomacy.md` | Rozbudowane 2026-01-09 |
 | 5 | Ekwipunek i ekonomia | ✅ | `resources.md` | Kompletne |
 | 6 | Świat gry (dla graczy) | ❌ | - | **BRAK** - Futurystyczna Ziemia do opisania |
-| 7 | Sekcja Arbitra | 🟨 | `arbiter_guide.md` | Szkielet |
-| 8 | Sekrety świata (tylko MG) | ❌ | - | **BRAK** - ukryta wiedza Arbitra |
+| 7 | Sekcja Guru | 🟨 | `guru_guide.md` | Szkielet |
+| 8 | Sekrety świata (tylko Guru) | ❌ | - | **BRAK** - ukryta wiedza Guru |
 | 9 | Bestiariusz / Przeciwnicy | 🔀 | `nation_template.md` | **ŚWIADOME ODSTĘPSTWO:** Gracze SĄ dla siebie przeciwnikami - zamiast bestiariusza będą Profile 5 Krajów |
 | 10 | Dodatki | 🟨 | `player_aids.md`, `INFOGRAPHIC.md` | Szkielety |
 
@@ -71,7 +71,7 @@
 **Powód:** Każdy kraj musi mieć tożsamość - sytuacje startowe, mocne/słabe strony, charakter. Gracze muszą móc wybrać.
 
 ### Priorytet 3: Sekrety Arbitra
-**Powód:** Arbiter potrzebuje ukrytej wiedzy - co gracze nie wiedzą, co może się wydarzyć, jakie są "prawdziwe" relacje między krajami.
+**Powód:** Guru potrzebuje ukrytej wiedzy - co gracze nie wiedzą, co może się wydarzyć, jakie są "prawdziwe" relacje między krajami.
 
 ---
 

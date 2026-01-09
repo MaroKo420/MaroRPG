@@ -36,7 +36,7 @@ Kluczowe założenia:
 
 ### Formalne Traktaty
 - Wymagają **zgody obu stron**
-- Arbiter **potwierdza i zapisuje** w Księdze Traktatów
+- Guru **potwierdza i zapisuje** w Księdze Traktatów
 - Są **publicznie ogłaszane** (chyba że obie strony chcą tajnego traktatu)
 - Określają **czas trwania** (tury lub "do odwołania")
 
@@ -63,7 +63,7 @@ Gracze mogą tworzyć **własne rodzaje traktatów**. Przykłady:
 - Umowa o wzajemnej pomocy w przypadku katastrof
 - Wymiana technologii za zasoby
 
-> *Kufufu... Kreatywność dyplomatów nie zna granic. Arbiter oceni, czy propozycja jest... wykonalna.*
+> *Kufufu... Kreatywność dyplomatów nie zna granic. Guru oceni, czy propozycja jest... wykonalna.*
 
 ---
 
@@ -83,7 +83,7 @@ Gracze mogą tworzyć **własne rodzaje traktatów**. Przykłady:
 | Konsekwencja | Opis |
 |--------------|------|
 | **Utrata zaufania** | Inni gracze będą ostrożniejsi w negocjacjach |
-| **Reputacja zdrajcy** | Arbiter może odnotować w Newsach |
+| **Reputacja zdrajcy** | Guru może odnotować w Newsach |
 | **Sojusze przeciwko** | Pozostali mogą się zjednoczyć przeciw zdrajcy |
 | **Karma** | ...a może po prostu nie róbcie tego? |
 
@@ -91,7 +91,7 @@ Gracze mogą tworzyć **własne rodzaje traktatów**. Przykłady:
 
 Każdy traktat można **jednostronnie zerwać**:
 1. Gracz ogłasza zerwanie
-2. Arbiter odnotowuje w Księdze
+2. Guru odnotowuje w Księdze
 3. Traktat przestaje obowiązywać **natychmiast**
 4. Konsekwencje jak wyżej
 
@@ -109,6 +109,6 @@ Każdy traktat można **jednostronnie zerwać**:
 
 ## 📝 Do Rozwinięcia
 
-- [ ] Czy tajne traktaty są w pełni tajne? (Arbiter wie, gracze nie)
+- [ ] Czy tajne traktaty są w pełni tajne? (Guru wie, gracze nie)
 - [ ] Czy można negocjować przez pośrednika (Dyplomata)?
 - [ ] Czy są ograniczenia ilości traktatów jednocześnie?
