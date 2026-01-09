@@ -400,18 +400,313 @@ MaroRPG/
 
 ---
 
+## 🎴 GALERIA ELEMENTÓW GRY - Kompletny Przegląd
+
+> **NOWE!** Po playteście #1 (3.01.2026) dodano wizualne karty pomocy dla graczy
+
+### 📋 Materiały Gracza - Kompletny Zestaw
+
+```
+╔════════════════════════════════════════════════════════════════════╗
+║              🎮 MARORPG - ZESTAW MATERIAŁÓW GRACZA                 ║
+╠════════════════════════════════════════════════════════════════════╣
+║                                                                    ║
+║  📁 PRZED GRĄ (Przygotowanie):                                     ║
+║  ┌──────────────────────────────────────────────────────────────┐ ║
+║  │ 1. 📖 KARTA ONBOARDING                                       │ ║
+║  │    → Wprowadzenie dla nowych graczy                          │ ║
+║  │    → 3 ścieżki zwycięstwa                                    │ ║
+║  │    → Podstawowe zasady                                       │ ║
+║  │                                                              │ ║
+║  │ 2. 🏛️ KARTA KRAJU (wypełniona dla twojego kraju)            │ ║
+║  │    → 5 Dyscyplin (poziomy, typ, stan)                       │ ║
+║  │    → Zasoby (surowce, energia, PB, złoto)                   │ ║
+║  │    → Cel długoterminowy                                      │ ║
+║  │                                                              │ ║
+║  │ 3. 🎯 KARTY DZIEDZIN (5 sztuk - po jednej na dyscyplinę)    │ ║
+║  │    → POZYTYWNE: jak rozwijać, co się odblokuje              │ ║
+║  │    → NEGATYWNE: jak naprawić, koszty, konsekwencje          │ ║
+║  └──────────────────────────────────────────────────────────────┘ ║
+║                                                                    ║
+║  🎮 PODCZAS GRY (Referencje):                                      ║
+║  ┌──────────────────────────────────────────────────────────────┐ ║
+║  │ 4. 🎮 KARTA AKCJI                                            │ ║
+║  │    → Menu 7 dostępnych akcji                                 │ ║
+║  │    → Koszty każdej akcji                                     │ ║
+║  │    → Porady strategiczne                                     │ ║
+║  │                                                              │ ║
+║  │ 5. 🎲 KARTA KOŁA FORTUNY                                     │ ║
+║  │    → Modyfikatory (dyscypliny, morale, sojusze)             │ ║
+║  │    → Przykładowe obliczenia                                  │ ║
+║  │    → Wyniki (1-100 co oznacza)                              │ ║
+║  │                                                              │ ║
+║  │ 6. 🌳 DRZEWO TECHNOLOGII                                     │ ║
+║  │    → Tier 1-4 (mapa progresji)                              │ ║
+║  │    → Co jest dostępne/zablokowane                           │ ║
+║  │    → Wymagania technologii                                   │ ║
+║  │                                                              │ ║
+║  │ 7. 🌱 KARTY TECHNOLOGII (na każdą dostępną tech)            │ ║
+║  │    → Wymagania (dyscypliny, tech-prereq)                    │ ║
+║  │    → Koszt budowy                                            │ ║
+║  │    → Efekty po zbudowaniu                                    │ ║
+║  │    → Szansa sukcesu                                          │ ║
+║  └──────────────────────────────────────────────────────────────┘ ║
+║                                                                    ║
+║  📝 PLANOWANIE TURY:                                               ║
+║  ┌──────────────────────────────────────────────────────────────┐ ║
+║  │ 8. 📝 KARTA PLANOWANIA                                       │ ║
+║  │    → Formularz do wypełnienia każdej tury                    │ ║
+║  │    → Pola: akcja, metoda, koszt, szansa                      │ ║
+║  │    → Przypomnienie o prioryteczkach                          │ ║
+║  └──────────────────────────────────────────────────────────────┘ ║
+║                                                                    ║
+║  📍 LOKALIZACJA PLIKÓW:                                            ║
+║     • 07_Player_Materials/visual_cards.md ← WSZYSTKIE KARTY       ║
+║     • 07_Player_Materials/player_aids.md ← Inne pomoce            ║
+║     • 08_Playtesting/feedback.md ← Feedback z testów              ║
+║                                                                    ║
+╚════════════════════════════════════════════════════════════════════╝
+```
+
+---
+
+## 🎯 ONE-PAGE OVERVIEW - Cała Gra w Pigułce
+
+```
+╔════════════════════════════════════════════════════════════════════╗
+║                    🌍 MARORPG - KOMPLETNY PRZEGLĄD                 ║
+╠════════════════════════════════════════════════════════════════════╣
+║                                                                    ║
+║  🎯 CO TO ZA GRA?                                                  ║
+║  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ║
+║  Strategiczna gra RPG dla 15-20 osób (5 krajów × 3 osoby + arbiter)║
+║  Futurystyczna Ziemia - wyścig o dominację lub Misję na Marsa     ║
+║  Turowa rozgrywka (1 tura = 1 pora roku)                          ║
+║                                                                    ║
+║  👥 GRACZE                                                         ║
+║  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ║
+║  Każdy kraj: 3 osoby (Lider, Dyplomata, Generał)                  ║
+║  + 1 Arbiter (narrator, rozstrzygający)                            ║
+║                                                                    ║
+║  🎮 MECHANIKA (CO ROBIĄ GRACZE?)                                   ║
+║  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ║
+║  KAŻDA TURA:                                                       ║
+║  1. PLANOWANIE (15 min) - grupa dyskutuje, spisuje plan           ║
+║  2. ZGŁOSZENIE - oddanie planu Arbitrowi (poufnie)                ║
+║  3. ROZSTRZYGNIĘCIE - Arbiter ocenia, Koło Fortuny                ║
+║  4. NEWSY - Arbiter ogłasza wyniki jako reportaż                  ║
+║                                                                    ║
+║  📊 5 DYSCYPLIN (Serce Gry)                                        ║
+║  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ║
+║  ⚔️  MILITARIA      - armia, broń, obrona                          ║
+║  🏗️  CYWILIZACJA    - infrastruktura, miasta                      ║
+║  👥 SPOŁECZEŃSTWO   - ludność, morale, kultura                     ║
+║  🔬 NAUKA           - technologie, badania                         ║
+║  🌍 ŚRODOWISKO      - ekologia, zasoby                             ║
+║                                                                    ║
+║  Każda: POZYTYWNA (przewaga) lub NEGATYWNA (problem)               ║
+║  Start (NOWY 7.01.26): 2 problemy, 2 przewagi, 1 neutralna        ║
+║  Evolucja: Lvl 0 → 1 → 2 → 3 → 4                                   ║
+║                                                                    ║
+║  🎲 KOŁO FORTUNY (Jak rozstrzygać?)                                ║
+║  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ║
+║  Bazowa szansa: 60%                                                ║
+║  + Pozytywne dyscypliny (Lvl 1: +10%, ..., Lvl 4: +40%)           ║
+║  - Negatywne dyscypliny (Lvl 1: -10%, ..., Lvl 3: -30%)           ║
+║  + Morale, Sojusze, Role                                           ║
+║  = FINALNA SZANSA (rzut 1-100)                                     ║
+║                                                                    ║
+║  🚀 JAK WYGRAĆ? (NOWY SYSTEM 7.01.2026)                            ║
+║  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ║
+║  5 ŚCIEŻEK ZWYCIĘSTWA - PIERWSZY DO 10 PUNKTÓW POSTĘPU!           ║
+║  1. 🔬 HEGEMONIA NAUKOWA (Nauka + Społeczeństwo) - ⭐⭐⭐           ║
+║  2. 💰 POTĘGA EKONOMICZNA (Cywilizacja + Środowisko) - ⭐⭐        ║
+║  3. ⚔️  IMPERIUM MILITARNE (Militaria + 2 stabilne) - ⭐⭐⭐⭐⭐     ║
+║  4. 🕊️  FEDERACJA POKOJU (3+ kraje w sojuszu) - ⭐⭐⭐ (wspólne!) ║
+║  5. 🛡️  PRZETRWANIE (4/5 dyscyplin stabilnych) - ⭐⭐              ║
+║  Punkty: Arbiter ocenia (1-3) + Koło Fortuny (+/-1)               ║
+║                                                                    ║
+║  🌳 TECHNOLOGIE                                                    ║
+║  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ║
+║  Tier 1: Podstawowe (Energia Słoneczna, Reaktory)                 ║
+║  Tier 2: Zaawansowane (Fuzja Jądrowa, Drony Bojowe)               ║
+║  Tier 3: Futurystyczne (Reaktory Plazmowe, Terraformacja)         ║
+║  Tier 4: Endgame (Misja na Marsa!)                                ║
+║                                                                    ║
+║  🤝 INTERAKCJE                                                     ║
+║  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ║
+║  • Dyplomacja (traktaty, sojusze)                                 ║
+║  • Handel (zasoby, technologie)                                    ║
+║  • Wywiad (szpiegostwo, informacje)                                ║
+║  • Konflikt (wojna, atak)                                          ║
+║                                                                    ║
+║  ⚠️ NAJWIĘKSZE WYZWANIA (z playtestu #1)                          ║
+║  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ║
+║  ✗ Gracze nie wiedzieli jakie akcje mogą wykonać                  ║
+║  ✗ Brak pewności co do kosztów i efektów                           ║
+║  ✗ Niejasny stan kraju i dostępne opcje                            ║
+║  ✓ ROZWIĄZANIE: 8 wizualnych kart pomocy! (visual_cards.md)       ║
+║                                                                    ║
+╚════════════════════════════════════════════════════════════════════╝
+```
+
+---
+
+## 🎨 WIZUALIZACJA DLA GRAFIKA - Jak to powinno wyglądać
+
+> Opis dla osoby, która chciałaby stworzyć prawdziwą grafikę/infografikę w Canva, Figma, Photoshop itp.
+
+### 📐 Format i Rozmiar
+
+**Rekomendowany format:**
+- **Infografika główna:** Pionowa, A3 (297×420mm) lub 1080×1920px (format Instagram Story)
+- **Karty graczy:** A5 (148×210mm) każda, możliwe do wydruku
+- **One-pager:** A4 poziomo (landscape)
+
+**Styl wizualny:**
+- **Paleta kolorów:**
+  - Tło: Ciemny granatowy/czarny (#0a0e27)
+  - Akcenty: Cyjan elektryczny (#00d9ff), fioletowy neon (#b537f2)
+  - Dyscypliny: każda ma swój kolor:
+    - ⚔️ MILITARIA: Czerwony (#ff3838)
+    - 🏗️ CYWILIZACJA: Szary (#7f8c8d)
+    - 👥 SPOŁECZEŃSTWO: Zielony (#2ecc71)
+    - 🔬 NAUKA: Niebieski (#3498db)
+    - 🌍 ŚRODOWISKO: Zielony limonkowy (#1abc9c)
+  - Ostrzeżenia: Pomarańczowy (#f39c12), Czerwony (#e74c3c)
+
+- **Typografia:**
+  - Nagłówki: **Orbitron Bold** lub **Exo 2 Black** (sci-fi font)
+  - Treść: **Inter Regular** lub **Roboto** (czytelne, nowoczesne)
+  - Akcenty: **Courier New** (monospace, dla liczb i statystyk)
+
+- **Ikony:**
+  - Flat design, minimalistyczne
+  - Kontur (outline style), nie wypełnione
+  - Grubość linii: 2-3px
+  - Źródła: Feather Icons, Heroicons, Material Icons
+
+### 🎴 Layout Kart Graczy
+
+**Karta Kraju (A5):**
+```
+┌─────────────────────────────────────┐
+│  🏛️ [NAZWA KRAJU]                   │  ← Duży nagłówek, gradient
+│  Motto: [...]                       │  ← Kursywa, mniejszy font
+├─────────────────────────────────────┤
+│                                     │
+│  📊 DYSCYPLINY                      │  ← Sekcja z tabelą
+│  ┌─────────┬─────┬─────┬─────────┐ │
+│  │ Dyscp.  │ Typ │ Lvl │ Stan    │ │  ← Responsive table
+│  ├─────────┼─────┼─────┼─────────┤ │
+│  │ ⚔️  MIL │ ✅  │ 2   │ [opis]  │ │  ← Emoji + skrót
+│  │         │     │[▓▓░]│ [efekt] │ │  ← Progress bar wizualny
+│  └─────────┴─────┴─────┴─────────┘ │
+│                                     │
+│  📦 ZASOBY                          │  ← Sekcja z ikonkami
+│  [icon] Surowce:    120/200        │  ← Progress bar + liczba
+│  [icon] Energia:    150/300        │
+│  [icon] PB:         45              │
+│                                     │
+│  🎯 CEL: [...]                      │  ← Wyróżniony box
+└─────────────────────────────────────┘
+```
+
+**Wizualne elementy:**
+- Progress bary: Gradient fill (pusty→pełny)
+- Ikony: Kolorowe, konsystentne z paletą
+- Tło: Subtelny gradient lub tekstura (futurystyczna)
+- Ramki: Zaokrąglone rogi (border-radius: 8-12px)
+- Cienie: Box-shadow dla głębi
+
+### 🌳 Drzewo Technologii
+
+**Styl:**
+- **Node-based diagram** (jak drzewa talentów w grach)
+- Każda technologia = okrągły node z ikoną
+- Połączenia: Linie/strzałki pokazujące prereq
+- Kolory:
+  - ✅ Odblokowane: Zielony glow
+  - 🔓 Dostępne: Cyjan glow
+  - 🔒 Zablokowane: Szary, dim
+  - ❌ Nieodblokowane: Czerwony outline
+
+**Layout:**
+```
+        TIER 1
+     [○] [○] [○]
+        ↓   ↓
+       TIER 2
+      [○] [○]
+         ↓
+       TIER 3
+      [○] [○]
+         ↓
+       TIER 4
+       [MARS!]
+```
+
+### 📊 Infografika Flow Gry
+
+**Circular flow** (cykliczny diagram):
+```
+     PLANOWANIE
+         ↓
+     ZGŁOSZENIE
+         ↓
+   ROZSTRZYGNIĘCIE
+         ↓
+       NEWSY
+         ↓
+    [następna tura]
+```
+
+**Elementy:**
+- Każda faza = sekcja z ikoną i opisem
+- Strzałki: Animowane (w wersji cyfrowej) lub grube
+- Timeline po bokach pokazujący czas (15 min planowanie, etc.)
+
+### 🎯 One-page Overview
+
+**Podział na sekcje:**
+```
+┌─────────────────────────────────────────┐
+│  NAGŁÓWEK (logo, tytuł)                 │
+├───────────────┬─────────────────────────┤
+│   GRACZE      │   MECHANIKA             │
+│   (kto gra?)  │   (jak się gra?)        │
+├───────────────┼─────────────────────────┤
+│  DYSCYPLINY   │   KOŁO FORTUNY          │
+│  (serce gry)  │   (rozstrzyganie)       │
+├───────────────┴─────────────────────────┤
+│  TECHNOLOGIE (drzewo uproszczone)       │
+├─────────────────────────────────────────┤
+│  WIN CONDITIONS (3 ścieżki)             │
+└─────────────────────────────────────────┘
+```
+
+**Layout:** Grid-based, responsive, balansowane proporcje
+
+---
+
 ## 📝 Notatki do Rozwoju
 
 Ta infografika będzie rozwijana wraz z projektem. Elementy do dodania:
-- [ ] Szczegółowe diagramy Dyscyplin z przykładami evolucji
-- [ ] Wizualizacja przykładowej tury krok po kroku
-- [ ] Mapa drzewa technologii (kompletna)
-- [ ] Przykłady kart krajów
-- [ ] Przykłady kart Dyscyplin
+- [✅] Szczegółowe diagramy Dyscyplin z przykładami evolucji ← DODANE (visual_cards.md)
+- [✅] Wizualizacja przykładowej tury krok po kroku ← CZĘŚCIOWO (flow chart)
+- [✅] Mapa drzewa technologii (kompletna) ← DODANE (visual_cards.md)
+- [✅] Przykłady kart krajów ← DODANE (visual_cards.md)
+- [✅] Przykłady kart Dyscyplin ← DODANE (visual_cards.md)
 - [ ] Flow chart systemu oceny Arbitra
 - [ ] Grafiki i ikony (gdy projekt będzie bardziej zaawansowany)
+- [ ] **NOWE:** Wersja graficzna infografiki (Canva/Figma) ← DO ZROBIENIA
+
+**Priorytety po playteście #1:**
+- [✅] Wizualne karty pomocy ← UKOŃCZONE (3.01.2026)
+- [ ] Testowanie kart w playteście #2
+- [ ] Iteracja na podstawie feedbacku
 
 ---
 
 **Ostatnia aktualizacja:** 2026-01-03
-**Status:** 🔄 Dokument żywy - będzie rozwijany
+**Status:** 🔄 Dokument żywy - rozszerzony po playteście #1

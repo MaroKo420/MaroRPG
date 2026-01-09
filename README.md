@@ -16,8 +16,9 @@
   - **Generał** - odpowiada za obronność i produkcję kluczowych zasobów
 
 ### System Tur
-- Każda tura = **1 Pora Roku**
-- Brak progressu przez epoki - gra toczy się w jednym okresie czasowym
+- **8-11 tur** = **2-3 godziny gry**
+- **3 AKTY**: Stabilizacja (3-4 tury) → Rozwój (3-4 tury) → Finał (2-3 tury)
+- Przerwy między Aktami (15 min) z publicznym scoreboardem
 - Tury składają się z faz: planowanie → zgłoszenie → rozstrzygnięcie → ogłoszenie wyników
 
 ### Arbiter (Kluczowa Rola)
@@ -37,25 +38,37 @@
 4. **Nauka** - technologie, innowacje
 5. **Środowisko** - ekologia, zasoby naturalne
 
-Każdy kraj startuje z **po jednej sytuacji** z każdej Dyscypliny (5 total).
-- Minimum **2 są problemami** (np. głód, zanieczyszczenie)
-- Pozostałe są **przewagami** (np. zaawansowana technologia, bogate zasoby)
+**Balans Startowy (NOWY - 7.01.2026):**
+Każdy kraj startuje z **dokładnie**:
+- **2 PROBLEMY** (Lvl 1/3 negatywne) - np. głód, słaba armia
+- **2 PRZEWAGI** (Lvl 3/3 pozytywne) - np. zaawansowana nauka, czyste środowisko
+- **1 NEUTRALNA** (Lvl 2/3) - przeciętny poziom
 
-**Evolucja Dyscyplin:**
-- Wykorzystywanie Dyscypliny → rozwija ją (pozytywne)
-- Ale pogłębia problemy w negatywnych Dyscyplinach
-- Przykład: Głód → Zamieszki → Kradzieże → Kanibalizm
+**Evolucja Dyscyplin (NOWY SYSTEM):**
+- Problemy **NIE degradują się automatycznie!**
+- Degradacja TYLKO gdy: ignorowanie przez 2 tury / eksploatacja / sabotaż
+- Wykorzystywanie pozytywnych Dyscyplin → rozwija je dalej
+- Przykład degradacji: Głód (Lvl 1) → ignorowanie 2 tury → Zamieszki (Lvl 2) → Kanibalizm (Lvl 3)
 
 ---
 
 ## 🏆 Warunki Zwycięstwa
 
-**Status: W Fazie Projektowania**
+**System: 5 Ścieżek Zwycięstwa (7.01.2026)**
 
-Rozważane opcje:
-- **Misja na Marsa** - wymaga zebrania technologii: źródło energii + transport kosmiczny + terraformacja
-- **Punkty Zwycięstwa** - za udane akcje, technologie, przewagę naukową
-- **Alternatywne cele** - różne ścieżki zwycięstwa (np. przypadkowe stworzenie czarnej dziury)
+**PIERWSZY DO 10 PUNKTÓW POSTĘPU - WYGRYWA!** 🎉
+
+### 5 Ścieżek:
+1. **🔬 HEGEMONIA NAUKOWA** (Nauka + Społeczeństwo) - Średnia trudność
+2. **💰 POTĘGA EKONOMICZNA** (Cywilizacja + Środowisko) - Łatwa
+3. **⚔️ IMPERIUM MILITARNE** (Militaria + 2 inne stabilne) - Bardzo trudna
+4. **🕊️ FEDERACJA POKOJU** (3+ kraje w sojuszu) - Wspólne zwycięstwo!
+5. **🛡️ PRZETRWANIE** (4/5 Dyscyplin stabilnych) - Defensywna
+
+**System Punktów:**
+- Arbiter ocenia akcje: 1-3 punkty (genialny/solidny/podstawowy plan)
+- Koło Fortuny może zmodyfikować: +/-1 punkt
+- Scoreboard publiczny po każdym Akcie
 
 ---
 
@@ -121,14 +134,19 @@ MaroRPG/
 
 ## 📊 Status Projektu
 
-**Faza: Projektowanie Fundamentów (ETAP 1-2)**
+**Faza: Po Pierwszym Playteście (ETAP 2-3)**
 
 - ✅ Struktura projektu utworzona
 - ✅ Wizja gry określona
-- 🔄 Definicja mechanik podstawowych (w toku)
-- ⏳ Balansowanie Dyscyplin (planowane)
-- ⏳ Stworzenie 5 krajów (planowane)
-- ⏳ Playtesting (planowane)
+- ✅ Definicja mechanik podstawowych (zakończone)
+- ✅ System 5 Ścieżek Zwycięstwa (zakończone 7.01.2026)
+- ✅ Struktura 3 Aktów (zakończone 7.01.2026)
+- ✅ Nowy balans startowy (zakończone 7.01.2026)
+- ✅ Playtest #1 wykonany (3.01.2026) + feedback zintegrowany
+- 🔄 Pomoce wizualne dla graczy (w toku)
+- ⏳ System Zasobów (planowane)
+- ⏳ Definicje 5 Krajów (planowane)
+- ⏳ Listy Technologii i Projektów (planowane)
 
 ---
 
@@ -153,4 +171,4 @@ Projekt w fazie rozwoju. Wszystkie prawa zastrzeżone przez autora (Maro).
 
 ---
 
-**Ostatnia aktualizacja:** 2026-01-03
+**Ostatnia aktualizacja:** 2026-01-07
