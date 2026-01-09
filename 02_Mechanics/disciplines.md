@@ -453,11 +453,67 @@
 
 ---
 
+## 🎲 Katalog Możliwych Sytuacji Startowych
+
+> **Status:** Wstępna lista do rozbudowy. Każda sytuacja zostanie rozszerzona o szczegóły mechaniczne.
+
+### ⚔️ MILITARIA
+
+| Typ | Sytuacja | Opis |
+|-----|----------|------|
+| ✅ | Elitarna Gwardia | Wyszkolone jednostki specjalne |
+| ✅ | Forteca Naturalna | Góry/rzeki dają bonus do obrony |
+| ✅ | Tradycja Wojowników | Społeczeństwo ceni służbę wojskową |
+| ❌ | Przestarzałe Uzbrojenie | Broń z poprzedniej ery |
+| ❌ | Bunt Generałów | Armia nieposłuszna władzy cywilnej |
+
+### 🏛️ CYWILIZACJA
+
+| Typ | Sytuacja | Opis |
+|-----|----------|------|
+| ✅ | Sieć Autostrad | Szybki transport między miastami |
+| ✅ | Megacity | Ogromna metropolia, centrum handlu |
+| ✅ | Smart Grid | Inteligentna sieć energetyczna |
+| ❌ | Rozpadająca się Infrastruktura | Mosty, drogi w ruinie |
+| ❌ | Przeludnienie | Miasta nie nadążają za migracją |
+
+### 👥 SPOŁECZEŃSTWO
+
+| Typ | Sytuacja | Opis |
+|-----|----------|------|
+| ✅ | Zjednoczona Kultura | Silna tożsamość narodowa |
+| ✅ | Wykształcone Społeczeństwo | Wysoki poziom edukacji |
+| ✅ | Tradycja Rzemiosła | Mistrzowscy producenci |
+| ❌ | Głód | Niedobory żywności, ludność cierpi |
+| ❌ | Podziały Etniczne | Konflikty wewnętrzne, napięcia |
+
+### 🔬 NAUKA
+
+| Typ | Sytuacja | Opis |
+|-----|----------|------|
+| ✅ | Uniwersytety Światowej Klasy | Przyciągają talenty |
+| ✅ | Przełom Technologiczny | 1 darmowa technologia Tier 1 |
+| ✅ | Kultura Innowacji | Społeczeństwo wspiera naukę |
+| ❌ | Drenaż Mózgów | Naukowcy uciekają za granicę |
+| ❌ | Techno-fobia | Społeczeństwo odrzuca nowe technologie |
+
+### 🌿 ŚRODOWISKO
+
+| Typ | Sytuacja | Opis |
+|-----|----------|------|
+| ✅ | Bogate Złoża | Obfite zasoby naturalne (ruda, ropa) |
+| ✅ | Żyzne Ziemie | Wysokie plony, nadwyżki żywności |
+| ✅ | Czysta Energia | Naturalne źródła (wiatr, słońce, woda) |
+| ❌ | Skażenie Przemysłowe | Toksyczne odpady, smog |
+| ❌ | Wyczerpane Zasoby | Kopalnie puste, gleba jałowa |
+
+---
+
 ## 📝 Status Dokumentu
 
-**Wersja:** 0.1 (Draft)
+**Wersja:** 0.2 (Draft)
 **Status:** 🔄 W toku
-**Ostatnia aktualizacja:** 2026-01-03
+**Ostatnia aktualizacja:** 2026-01-09
 
 **Decyzje do podjęcia:**
 - [ ] Czy skala PP (20/40/60) jest zbalansowana?

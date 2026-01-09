@@ -1,0 +1,12 @@
+# Szkolenie (prywatne)
+szkolenie_claude/
+
+# System files
+.DS_Store
+*.swp
+*.swo
+*~
+
+# IDE
+.idea/
+.vscode/
