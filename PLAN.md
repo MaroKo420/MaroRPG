@@ -33,47 +33,50 @@ Stworzenie kompletnej, grywalnej gry RPG typu **nation-building** na papierze, �
 
 ---
 
-### ⏳ ETAP 2: System Mechanik Podstawowych
-**Status: ⏳ PLANOWANE**
+### ✅ ETAP 2: System Mechanik Podstawowych
+**Status: ✅ UKOŃCZONY (Lekcja 3.1)**
 
 **Cel:** Zaprojektować kompletny system mechanik rozgrywki
 
 **Checklist:**
-- [ ] **Struktura Tury** - szczegółowe fazy
+- [x] **Struktura Tury** - szczegółowe fazy ✅
+  - Faza 0: INAUGURACJA (pierwsza tura — opis świata i frakcji)
   - Faza 1: Planowanie (15 min dla wszystkich grup)
   - Faza 2: Zgłoszenie do Arbitra (poufne)
   - Faza 3: Rozstrzygnięcie Arbitra (Koło Fortuny)
   - Faza 4: Ogłoszenie "newsów"
-  - [ ] Dokument: `02_Mechanics/turn_structure.md`
+  - [x] Dokument: `02_Mechanics/turn_structure.md`
 
-- [ ] **System Zasobów**
-  - Jakie zasoby istnieją? (np. surowce, energia, punkty akcji)
-  - Jak się je zdobywa i wydaje?
-  - [ ] Dokument: `02_Mechanics/resources.md`
+- [x] **System Zasobów** ✅
+  - 4 zasoby: MAT, EN, PB, LUD
+  - Model 3-warstwowy: Technologie → Infrastruktura → Zasoby
+  - [x] Dokument: `02_Mechanics/resources.md`
 
-- [ ] **Mechanika Ról**
-  - Lider - jakie decyzje podejmuje?
-  - Dyplomata - mechaniki interakcji z innymi krajami
-  - Generał - produkcja, obronność, militaria
-  - [ ] Dokument: `02_Mechanics/roles.md`
+- [x] **Mechanika Ról** ✅
+  - Lider: 7 akcji (Edykt, Budowa, Badanie, Inwestycja, Naprawa, Zmiana ścieżki, Przemówienie)
+  - Dyplomata: 7 akcji + darmowa tajna wiadomość
+  - Generał: 8 akcji (w tym Przetarg na sprzęt)
+  - Mechanika głosowania (2 vs 1 mogą przegłosować Lidera)
+  - [x] Dokument: `02_Mechanics/roles.md` + `MECHANIKI_AUDYT.md`
 
-- [ ] **System Dyscyplin**
+- [x] **System Dyscyplin** ✅
   - Szczegółowa mechanika evolucji Dyscyplin
-  - Jak Dyscypliny pozytywne się rozwijają?
-  - Jak Dyscypliny negatywne się pogłębiają?
-  - Tabela progresji dla każdej Dyscypliny
-  - [ ] Dokument: `02_Mechanics/disciplines.md`
+  - Pozytywne: Lvl 1-4 (rozwój)
+  - Negatywne: Lvl 1-3 (pogorszenie)
+  - Sabotaż wpływa na Koło Fortuny celu
+  - [x] Dokument: `02_Mechanics/disciplines.md`
 
-- [ ] **Koło Fortuny**
-  - Mechanika kręcenia kołem
-  - Szanse powodzenia/porażki
-  - Modyfikatory (technologia, wywiad, etc.)
-  - [ ] Dokument: `02_Mechanics/wheel_of_fortune.md`
+- [x] **Koło Fortuny** ✅ (System Hybrydowy)
+  - 7 wyników: Sukces, Porażka, Krytyczny sukces, Krytyczna porażka, Kataklizm, Odkrycie, Random
+  - Aplikacja + Karty eventowe (Twist/Discovery/Disaster)
+  - Pełna transparentność (gracze widzą % szans)
+  - [x] Dokument: `MECHANIKI_AUDYT.md`
 
-**Decyzje Projektowe do Podjęcia:**
-- Jak dokładnie wygląda ocena Arbitra? (tabele, punkty, subiektywna?)
-- Jak długo trwa analiza Arbitra? (co robią gracze w tym czasie?)
-- Czy wszystkie kraje działają jednocześnie czy jest kolejność?
+**Decyzje Projektowe PODJĘTE:**
+- [x] Ocena Arbitra: 1-3 punkty → 40%/60%/80% bazowej szansy
+- [x] Każda rola ma 1 akcję/turę (3 akcje na kraj)
+- [x] Wszystkie kraje działają jednocześnie
+- [x] Transparentność Koła: gracze widzą swoje szanse
 
 ---
 
@@ -234,16 +237,21 @@ Stworzenie kompletnej, grywalnej gry RPG typu **nation-building** na papierze, �
 
 ## 🔥 Bieżące Priorytety
 
-### Teraz (ETAP 1):
+### Ukończone:
 1. ✅ Stworzyć strukturę projektu
-2. 🔄 Określić Win Conditions
-3. ⏳ Napisać Vision Document
-4. ⏳ Zdefiniować Pillars (filary mechanik)
+2. ✅ Określić Win Conditions (5 ścieżek zwycięstwa)
+3. ✅ Zdefiniować Pillars (5 filarów)
+4. ✅ **ETAP 2 UKOŃCZONY** (Lekcja 3.1 — Audyt Mechanik)
 
-### Następne (ETAP 2):
-1. Zaprojektować szczegółową strukturę tury
-2. Opracować system Koła Fortuny
-3. Stworzyć tabele evolucji Dyscyplin
+### Teraz (ETAP 3):
+1. ⏳ Mechaniki dyplomatyczne (traktaty, sojusze)
+2. ⏳ System konfliktów
+3. ⏳ Szpiegostwo i wywiad
+
+### Do zrobienia później:
+1. Stworzyć aplikację Koła Fortuny (HTML/JS)
+2. Zaprojektować 35 kart eventowych (Twist/Discovery/Disaster)
+3. Definicje 5 krajów
 
 ---
 
@@ -308,7 +316,22 @@ Projekt uznajemy za udany, gdy:
 - ✅ Stworzono PLAN.md z roadmapem i checklistą
 - 🔄 Rozpoczęto ETAP 1
 
+**2026-01-07:**
+- ✅ System 5 Ścieżek Zwycięstwa
+- ✅ Struktura 3 Aktów
+- ✅ Nowy balans startowy (2 problemy + 2 przewagi + 1 stabilna)
+
+**2026-01-20:**
+- ✅ **LEKCJA 3.1: Audyt Mechanik** — KOMPLETNY!
+- ✅ Stworzono `MECHANIKI_AUDYT.md` z pełnym mapowaniem I/P/O
+- ✅ 8 mechanik CORE zmapowanych
+- ✅ 22 akcje dla 3 ról (Lider/Dyplomata/Generał)
+- ✅ Koło Fortuny: 7 wyników, system hybrydowy (app + karty)
+- ✅ Poradnik pierwszej tury dla Guru
+- ✅ Decyzja: pełna transparentność Koła (gracze widzą %)
+- ✅ ETAP 2 zakończony!
+
 ---
 
-**Ostatnia aktualizacja:** 2026-01-03
-**Następny krok:** Finalizacja Win Conditions → Vision Document → Pillars Document
+**Ostatnia aktualizacja:** 2026-01-20
+**Następny krok:** ETAP 3 — System Interakcji Między Krajami
