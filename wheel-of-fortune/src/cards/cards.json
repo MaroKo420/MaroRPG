@@ -1,0 +1,412 @@
+{
+  "cards": [
+    {
+      "id": "SUPP-001",
+      "type": "WSPARCIE",
+      "name": "Dobra Passa",
+      "effect": {
+        "action": "add_fields",
+        "multiplier": 2,
+        "count": 2
+      },
+      "description": "+2 pola x2 na następne kręcenie",
+      "flavor": "Szczęście sprzyja przygotowanym"
+    },
+    {
+      "id": "SUPP-002",
+      "type": "WSPARCIE",
+      "name": "Złota Szansa",
+      "effect": {
+        "action": "add_fields",
+        "multiplier": 5,
+        "count": 1
+      },
+      "description": "+1 pole x5 na następne kręcenie",
+      "flavor": "Fortuna kołem się toczy"
+    },
+    {
+      "id": "SUPP-003",
+      "type": "WSPARCIE",
+      "name": "Błogosławieństwo Losu",
+      "effect": {
+        "action": "remove_fields",
+        "multiplier": 0,
+        "count": 2
+      },
+      "description": "-2 pola x0 z koła",
+      "flavor": "Niech los Ci sprzyja"
+    },
+    {
+      "id": "SUPP-004",
+      "type": "WSPARCIE",
+      "name": "Mały Sukces",
+      "effect": {
+        "action": "add_fields",
+        "multiplier": 2,
+        "count": 1
+      },
+      "description": "+1 pole x2 na następne kręcenie",
+      "flavor": "Od małego do wielkiego"
+    },
+    {
+      "id": "SUPP-005",
+      "type": "WSPARCIE",
+      "name": "Stabilizacja",
+      "effect": {
+        "action": "remove_fields",
+        "multiplier": 0.5,
+        "count": 2
+      },
+      "description": "-2 pola x0.5 z koła",
+      "flavor": "Pewność jest fundamentem sukcesu"
+    },
+    {
+      "id": "SUPP-006",
+      "type": "WSPARCIE",
+      "name": "Wiatr w Żagle",
+      "effect": {
+        "action": "add_fields",
+        "multiplier": 2,
+        "count": 3
+      },
+      "description": "+3 pola x2 na następne kręcenie",
+      "flavor": "Korzystne wiatry nie trwają wiecznie"
+    },
+    {
+      "id": "SUPP-007",
+      "type": "WSPARCIE",
+      "name": "Drobne Szczęście",
+      "effect": {
+        "action": "remove_fields",
+        "multiplier": 0,
+        "count": 1
+      },
+      "description": "-1 pole x0 z koła",
+      "flavor": "Każde szczęście się liczy"
+    },
+    {
+      "id": "SUPP-008",
+      "type": "WSPARCIE",
+      "name": "Srebrna Podkowa",
+      "effect": {
+        "action": "add_fields",
+        "multiplier": 10,
+        "count": 1
+      },
+      "description": "+1 pole x10 na następne kręcenie",
+      "flavor": "Tradycja przynosi szczęście"
+    },
+    {
+      "id": "SUPP-009",
+      "type": "WSPARCIE",
+      "name": "Przychylność Bogów",
+      "effect": {
+        "action": "add_fields",
+        "multiplier": 5,
+        "count": 2
+      },
+      "description": "+2 pola x5 na następne kręcenie",
+      "flavor": "Bogowie spoglądają łaskawie"
+    },
+    {
+      "id": "SUPP-010",
+      "type": "WSPARCIE",
+      "name": "Oczyszczenie",
+      "effect": {
+        "action": "remove_fields",
+        "multiplier": 0,
+        "count": 3
+      },
+      "description": "-3 pola x0 z koła",
+      "flavor": "Usuń przeszkody ze swojej drogi"
+    },
+    {
+      "id": "SUPP-011",
+      "type": "WSPARCIE",
+      "name": "Optymizm",
+      "effect": {
+        "action": "add_fields",
+        "multiplier": 2,
+        "count": 2
+      },
+      "description": "+2 pola x2 na następne kręcenie",
+      "flavor": "Pozytywne myślenie przynosi efekty"
+    },
+    {
+      "id": "SUPP-012",
+      "type": "WSPARCIE",
+      "name": "Dar Fortuny",
+      "effect": {
+        "action": "add_fields",
+        "multiplier": 100,
+        "count": 1
+      },
+      "description": "+1 pole x100 na następne kręcenie",
+      "flavor": "Los bywa hojny dla wybranych"
+    },
+    {
+      "id": "SUPP-013",
+      "type": "WSPARCIE",
+      "name": "Strażnik Losu",
+      "effect": {
+        "action": "remove_fields",
+        "multiplier": 0.5,
+        "count": 3
+      },
+      "description": "-3 pola x0.5 z koła",
+      "flavor": "Pilnuj swoich spraw"
+    },
+    {
+      "id": "SUPP-014",
+      "type": "WSPARCIE",
+      "name": "Impet",
+      "effect": {
+        "action": "add_fields",
+        "multiplier": 5,
+        "count": 1
+      },
+      "description": "+1 pole x5 na następne kręcenie",
+      "flavor": "Pęd ku zwycięstwu"
+    },
+    {
+      "id": "SUPP-015",
+      "type": "WSPARCIE",
+      "name": "Szczęśliwa Siódemka",
+      "effect": {
+        "action": "add_fields",
+        "multiplier": 10,
+        "count": 2
+      },
+      "description": "+2 pola x10 na następne kręcenie",
+      "flavor": "7 to magiczna liczba"
+    },
+    {
+      "id": "SAB-001",
+      "type": "SABOTAZ",
+      "name": "Pech Przeciwnika",
+      "effect": {
+        "action": "add_enemy_fields",
+        "multiplier": 0,
+        "count": 2
+      },
+      "description": "+2 pola x0 dla wybranego kraju",
+      "flavor": "Niech pech cię spotka"
+    },
+    {
+      "id": "SAB-002",
+      "type": "SABOTAZ",
+      "name": "Klątwa",
+      "effect": {
+        "action": "add_enemy_fields",
+        "multiplier": 0,
+        "count": 3
+      },
+      "description": "+3 pola x0 dla wybranego kraju",
+      "flavor": "Mroczna energia otacza wroga"
+    },
+    {
+      "id": "SAB-003",
+      "type": "SABOTAZ",
+      "name": "Złe Przeczucie",
+      "effect": {
+        "action": "add_enemy_fields",
+        "multiplier": 0.5,
+        "count": 2
+      },
+      "description": "+2 pola x0.5 dla wybranego kraju",
+      "flavor": "Coś złego wisi w powietrzu"
+    },
+    {
+      "id": "SAB-004",
+      "type": "SABOTAZ",
+      "name": "Drobna Przeszkoda",
+      "effect": {
+        "action": "add_enemy_fields",
+        "multiplier": 0,
+        "count": 1
+      },
+      "description": "+1 pole x0 dla wybranego kraju",
+      "flavor": "Małe kamyki potrafią przewrócić"
+    },
+    {
+      "id": "SAB-005",
+      "type": "SABOTAZ",
+      "name": "Chaos",
+      "effect": {
+        "action": "remove_enemy_fields",
+        "multiplier": 2,
+        "count": 2
+      },
+      "description": "-2 pola x2 z koła wroga",
+      "flavor": "Niech zapanuje nieład"
+    },
+    {
+      "id": "SAB-006",
+      "type": "SABOTAZ",
+      "name": "Zły Omen",
+      "effect": {
+        "action": "add_enemy_fields",
+        "multiplier": 0,
+        "count": 2
+      },
+      "description": "+2 pola x0 dla wybranego kraju",
+      "flavor": "Znaki nie wróżą dobrze"
+    },
+    {
+      "id": "SAB-007",
+      "type": "SABOTAZ",
+      "name": "Zawiść",
+      "effect": {
+        "action": "remove_enemy_fields",
+        "multiplier": 5,
+        "count": 1
+      },
+      "description": "-1 pole x5 z koła wroga",
+      "flavor": "Nie pozwól innym się wznieść"
+    },
+    {
+      "id": "SAB-008",
+      "type": "SABOTAZ",
+      "name": "Przekleństwo Nieszczęścia",
+      "effect": {
+        "action": "add_enemy_fields",
+        "multiplier": 0,
+        "count": 4
+      },
+      "description": "+4 pola x0 dla wybranego kraju",
+      "flavor": "Niech pechowa czarna chmura zawisnie"
+    },
+    {
+      "id": "SAB-009",
+      "type": "SABOTAZ",
+      "name": "Destabilizacja",
+      "effect": {
+        "action": "add_enemy_fields",
+        "multiplier": 0.5,
+        "count": 3
+      },
+      "description": "+3 pola x0.5 dla wybranego kraju",
+      "flavor": "Zachwiać podstawami"
+    },
+    {
+      "id": "SAB-010",
+      "type": "SABOTAZ",
+      "name": "Utrata Mocy",
+      "effect": {
+        "action": "remove_enemy_fields",
+        "multiplier": 10,
+        "count": 1
+      },
+      "description": "-1 pole x10 z koła wroga",
+      "flavor": "Siła opuszcza przeciwnika"
+    },
+    {
+      "id": "BONUS-001",
+      "type": "BONUS",
+      "name": "Podwójne Szczęście",
+      "effect": {
+        "action": "multiply_result",
+        "value": 2
+      },
+      "description": "x2 do końcowego wyniku",
+      "flavor": "Podwójna nagroda dla zwycięzcy"
+    },
+    {
+      "id": "BONUS-002",
+      "type": "BONUS",
+      "name": "Błogosławieństwo",
+      "effect": {
+        "action": "multiply_result",
+        "value": 1.5
+      },
+      "description": "x1.5 do końcowego wyniku",
+      "flavor": "Niebo sprzyja odważnym"
+    },
+    {
+      "id": "BONUS-003",
+      "type": "BONUS",
+      "name": "Jackpot",
+      "effect": {
+        "action": "multiply_result",
+        "value": 3
+      },
+      "description": "x3 do końcowego wyniku",
+      "flavor": "Trafienie w dziesiątkę!"
+    },
+    {
+      "id": "BONUS-004",
+      "type": "BONUS",
+      "name": "Dodatkowa Premia",
+      "effect": {
+        "action": "add_result",
+        "value": 10000
+      },
+      "description": "+10000 do końcowego wyniku",
+      "flavor": "Nieoczekiwany bonus"
+    },
+    {
+      "id": "BONUS-005",
+      "type": "BONUS",
+      "name": "Wielka Wygrana",
+      "effect": {
+        "action": "multiply_result",
+        "value": 5
+      },
+      "description": "x5 do końcowego wyniku",
+      "flavor": "Życiowa szansa wykorzystana"
+    },
+    {
+      "id": "PROT-001",
+      "type": "OCHRONA",
+      "name": "Tarcza",
+      "effect": {
+        "action": "block_sabotage",
+        "count": 1
+      },
+      "description": "Anuluj 1 kartę sabotażu",
+      "flavor": "Osłona przed atakiem"
+    },
+    {
+      "id": "PROT-002",
+      "type": "OCHRONA",
+      "name": "Nietykalność",
+      "effect": {
+        "action": "block_sabotage",
+        "count": 2
+      },
+      "description": "Anuluj do 2 kart sabotażu",
+      "flavor": "Żadna klątwa cię nie dosięgnie"
+    },
+    {
+      "id": "PROT-003",
+      "type": "OCHRONA",
+      "name": "Odbicie",
+      "effect": {
+        "action": "reflect_sabotage"
+      },
+      "description": "Odbij sabotaż na atakującego",
+      "flavor": "Co wysłałeś, wróci do ciebie"
+    },
+    {
+      "id": "PROT-004",
+      "type": "OCHRONA",
+      "name": "Amulet",
+      "effect": {
+        "action": "minimum_multiplier",
+        "value": 1
+      },
+      "description": "Gwarancja minimum x1",
+      "flavor": "Nigdy nie stracisz wszystkiego"
+    },
+    {
+      "id": "PROT-005",
+      "type": "OCHRONA",
+      "name": "Anulowanie Klątwy",
+      "effect": {
+        "action": "remove_all_enemy_effects"
+      },
+      "description": "Usuń wszystkie negatywne efekty",
+      "flavor": "Oczyszczenie z przekleństw"
+    }
+  ]
+}

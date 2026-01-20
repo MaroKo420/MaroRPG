@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generator Kart - MaroRPG Kolo Fortuny</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <style>
+    :root {
+      --wsparcie: #4ade80;
+      --sabotaz: #f87171;
+      --bonus: #fbbf24;
+      --ochrona: #60a5fa;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: #1a1a2e;
+      color: #eee;
+      padding: 20px;
+    }
+
+    .controls {
+      max-width: 800px;
+      margin: 0 auto 30px;
+      padding: 20px;
+      background: #16213e;
+      border-radius: 12px;
+    }
+
+    .controls h1 {
+      color: #ffd700;
+      margin-bottom: 15px;
+      font-size: 1.5rem;
+    }
+
+    .controls p {
+      color: #aaa;
+      margin-bottom: 15px;
+    }
+
+    .btn-group {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 500;
+      transition: transform 0.2s;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #ff6b35 0%, #e55a2b 100%);
+      color: white;
+    }
+
+    .btn-secondary {
+      background: #0f3460;
+      color: #eee;
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+
+    .filter-btns {
+      margin-top: 15px;
+    }
+
+    .filter-btns button {
+      padding: 6px 12px;
+      margin-right: 8px;
+      margin-bottom: 8px;
+      border: 2px solid;
+      border-radius: 4px;
+      background: transparent;
+      cursor: pointer;
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+
+    .filter-btns button.active {
+      color: #1a1a2e;
+    }
+
+    .filter-btns .wsparcie { border-color: var(--wsparcie); color: var(--wsparcie); }
+    .filter-btns .wsparcie.active { background: var(--wsparcie); }
+    .filter-btns .sabotaz { border-color: var(--sabotaz); color: var(--sabotaz); }
+    .filter-btns .sabotaz.active { background: var(--sabotaz); }
+    .filter-btns .bonus { border-color: var(--bonus); color: var(--bonus); }
+    .filter-btns .bonus.active { background: var(--bonus); }
+    .filter-btns .ochrona { border-color: var(--ochrona); color: var(--ochrona); }
+    .filter-btns .ochrona.active { background: var(--ochrona); }
+    .filter-btns .all { border-color: #ffd700; color: #ffd700; }
+    .filter-btns .all.active { background: #ffd700; }
+
+    /* Print area */
+    .print-area {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 20px;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    /* Card styling */
+    .card {
+      width: 280px;
+      height: 400px;
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      color: #1a1a2e;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+
+    .card-header {
+      padding: 12px 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+    }
+
+    .card.WSPARCIE .card-header { background: var(--wsparcie); }
+    .card.SABOTAZ .card-header { background: var(--sabotaz); }
+    .card.BONUS .card-header { background: var(--bonus); color: #1a1a2e; }
+    .card.OCHRONA .card-header { background: var(--ochrona); }
+
+    .card-type-label {
+      font-weight: 700;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .card-icon {
+      font-size: 1.5rem;
+    }
+
+    .card-body {
+      flex: 1;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card-name {
+      font-size: 1.4rem;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 15px;
+      color: #1a1a2e;
+    }
+
+    .card-content {
+      display: flex;
+      gap: 15px;
+      flex: 1;
+    }
+
+    .qr-container {
+      width: 100px;
+      height: 100px;
+      flex-shrink: 0;
+    }
+
+    .qr-container canvas {
+      width: 100% !important;
+      height: 100% !important;
+    }
+
+    .card-effect-container {
+      flex: 1;
+    }
+
+    .card-effect-label {
+      font-size: 0.75rem;
+      color: #666;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 5px;
+    }
+
+    .card-effect {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #1a1a2e;
+      line-height: 1.4;
+    }
+
+    .card-code {
+      margin-top: auto;
+      font-family: 'Courier New', monospace;
+      font-size: 0.9rem;
+      color: #666;
+      padding-top: 10px;
+      border-top: 1px dashed #ddd;
+    }
+
+    .card-footer {
+      padding: 12px 15px;
+      background: #f5f5f5;
+      border-top: 1px solid #eee;
+    }
+
+    .card-flavor {
+      font-style: italic;
+      font-size: 0.85rem;
+      color: #666;
+      text-align: center;
+    }
+
+    /* Print styles */
+    @media print {
+      body {
+        background: white;
+        padding: 0;
+      }
+
+      .controls {
+        display: none;
+      }
+
+      .print-area {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10mm;
+        padding: 10mm;
+      }
+
+      .card {
+        break-inside: avoid;
+        box-shadow: none;
+        border: 1px solid #ccc;
+      }
+    }
+
+    @page {
+      size: A4;
+      margin: 10mm;
+    }
+  </style>
+</head>
+<body>
+  <div class="controls">
+    <h1>Generator Kart - Kolo Fortuny</h1>
+    <p>Wybierz typy kart do wydruku, a nastepnie kliknij "Drukuj karty" (Ctrl+P).</p>
+
+    <div class="filter-btns">
+      <button class="all active" onclick="filterCards('all')">Wszystkie</button>
+      <button class="wsparcie" onclick="filterCards('WSPARCIE')">Wsparcie (15)</button>
+      <button class="sabotaz" onclick="filterCards('SABOTAZ')">Sabotaz (10)</button>
+      <button class="bonus" onclick="filterCards('BONUS')">Bonus (5)</button>
+      <button class="ochrona" onclick="filterCards('OCHRONA')">Ochrona (5)</button>
+    </div>
+
+    <div class="btn-group" style="margin-top: 20px;">
+      <button class="btn btn-primary" onclick="window.print()">Drukuj karty</button>
+      <button class="btn btn-secondary" onclick="generateAllQR()">Regeneruj QR kody</button>
+    </div>
+  </div>
+
+  <div id="print-area" class="print-area"></div>
+
+  <script>
+    // Card definitions (same as in the app)
+    const cards = [
+      { id: "SUPP-001", type: "WSPARCIE", name: "Dobra Passa", effect: { action: "add_fields", multiplier: 2, count: 2 }, description: "+2 pola x2 na nastepne krecenie", flavor: "Szczescie sprzyja przygotowanym" },
+      { id: "SUPP-002", type: "WSPARCIE", name: "Zlota Szansa", effect: { action: "add_fields", multiplier: 5, count: 1 }, description: "+1 pole x5 na nastepne krecenie", flavor: "Fortuna kolem sie toczy" },
+      { id: "SUPP-003", type: "WSPARCIE", name: "Blogoslawienstwo Losu", effect: { action: "remove_fields", multiplier: 0, count: 2 }, description: "-2 pola x0 z kola", flavor: "Niech los Ci sprzyja" },
+      { id: "SUPP-004", type: "WSPARCIE", name: "Maly Sukces", effect: { action: "add_fields", multiplier: 2, count: 1 }, description: "+1 pole x2 na nastepne krecenie", flavor: "Od malego do wielkiego" },
+      { id: "SUPP-005", type: "WSPARCIE", name: "Stabilizacja", effect: { action: "remove_fields", multiplier: 0.5, count: 2 }, description: "-2 pola x0.5 z kola", flavor: "Pewnosc jest fundamentem sukcesu" },
+      { id: "SUPP-006", type: "WSPARCIE", name: "Wiatr w Zagle", effect: { action: "add_fields", multiplier: 2, count: 3 }, description: "+3 pola x2 na nastepne krecenie", flavor: "Korzystne wiatry nie trwaja wiecznie" },
+      { id: "SUPP-007", type: "WSPARCIE", name: "Drobne Szczescie", effect: { action: "remove_fields", multiplier: 0, count: 1 }, description: "-1 pole x0 z kola", flavor: "Kazde szczescie sie liczy" },
+      { id: "SUPP-008", type: "WSPARCIE", name: "Srebrna Podkowa", effect: { action: "add_fields", multiplier: 10, count: 1 }, description: "+1 pole x10 na nastepne krecenie", flavor: "Tradycja przynosi szczescie" },
+      { id: "SUPP-009", type: "WSPARCIE", name: "Przychylnosc Bogow", effect: { action: "add_fields", multiplier: 5, count: 2 }, description: "+2 pola x5 na nastepne krecenie", flavor: "Bogowie spogladaja laskawie" },
+      { id: "SUPP-010", type: "WSPARCIE", name: "Oczyszczenie", effect: { action: "remove_fields", multiplier: 0, count: 3 }, description: "-3 pola x0 z kola", flavor: "Usun przeszkody ze swojej drogi" },
+      { id: "SUPP-011", type: "WSPARCIE", name: "Optymizm", effect: { action: "add_fields", multiplier: 2, count: 2 }, description: "+2 pola x2 na nastepne krecenie", flavor: "Pozytywne myslenie przynosi efekty" },
+      { id: "SUPP-012", type: "WSPARCIE", name: "Dar Fortuny", effect: { action: "add_fields", multiplier: 100, count: 1 }, description: "+1 pole x100 na nastepne krecenie", flavor: "Los bywa hojny dla wybranych" },
+      { id: "SUPP-013", type: "WSPARCIE", name: "Straznik Losu", effect: { action: "remove_fields", multiplier: 0.5, count: 3 }, description: "-3 pola x0.5 z kola", flavor: "Pilnuj swoich spraw" },
+      { id: "SUPP-014", type: "WSPARCIE", name: "Impet", effect: { action: "add_fields", multiplier: 5, count: 1 }, description: "+1 pole x5 na nastepne krecenie", flavor: "Ped ku zwyciestwu" },
+      { id: "SUPP-015", type: "WSPARCIE", name: "Szczesliwa Siodemka", effect: { action: "add_fields", multiplier: 10, count: 2 }, description: "+2 pola x10 na nastepne krecenie", flavor: "7 to magiczna liczba" },
+      { id: "SAB-001", type: "SABOTAZ", name: "Pech Przeciwnika", effect: { action: "add_enemy_fields", multiplier: 0, count: 2 }, description: "+2 pola x0 dla wybranego kraju", flavor: "Niech pech cie spotka" },
+      { id: "SAB-002", type: "SABOTAZ", name: "Klatwa", effect: { action: "add_enemy_fields", multiplier: 0, count: 3 }, description: "+3 pola x0 dla wybranego kraju", flavor: "Mroczna energia otacza wroga" },
+      { id: "SAB-003", type: "SABOTAZ", name: "Zle Przeczucie", effect: { action: "add_enemy_fields", multiplier: 0.5, count: 2 }, description: "+2 pola x0.5 dla wybranego kraju", flavor: "Cos zlego wisi w powietrzu" },
+      { id: "SAB-004", type: "SABOTAZ", name: "Drobna Przeszkoda", effect: { action: "add_enemy_fields", multiplier: 0, count: 1 }, description: "+1 pole x0 dla wybranego kraju", flavor: "Male kamyki potrafia przewrocic" },
+      { id: "SAB-005", type: "SABOTAZ", name: "Chaos", effect: { action: "remove_enemy_fields", multiplier: 2, count: 2 }, description: "-2 pola x2 z kola wroga", flavor: "Niech zapanuje nielad" },
+      { id: "SAB-006", type: "SABOTAZ", name: "Zly Omen", effect: { action: "add_enemy_fields", multiplier: 0, count: 2 }, description: "+2 pola x0 dla wybranego kraju", flavor: "Znaki nie wroza dobrze" },
+      { id: "SAB-007", type: "SABOTAZ", name: "Zawisc", effect: { action: "remove_enemy_fields", multiplier: 5, count: 1 }, description: "-1 pole x5 z kola wroga", flavor: "Nie pozwol innym sie wzniesc" },
+      { id: "SAB-008", type: "SABOTAZ", name: "Przeklenstwo Nieszczescia", effect: { action: "add_enemy_fields", multiplier: 0, count: 4 }, description: "+4 pola x0 dla wybranego kraju", flavor: "Niech pechowa czarna chmura zawisnie" },
+      { id: "SAB-009", type: "SABOTAZ", name: "Destabilizacja", effect: { action: "add_enemy_fields", multiplier: 0.5, count: 3 }, description: "+3 pola x0.5 dla wybranego kraju", flavor: "Zachwiac podstawami" },
+      { id: "SAB-010", type: "SABOTAZ", name: "Utrata Mocy", effect: { action: "remove_enemy_fields", multiplier: 10, count: 1 }, description: "-1 pole x10 z kola wroga", flavor: "Sila opuszcza przeciwnika" },
+      { id: "BONUS-001", type: "BONUS", name: "Podwojne Szczescie", effect: { action: "multiply_result", value: 2 }, description: "x2 do koncowego wyniku", flavor: "Podwojna nagroda dla zwyciezcy" },
+      { id: "BONUS-002", type: "BONUS", name: "Blogoslawienstwo", effect: { action: "multiply_result", value: 1.5 }, description: "x1.5 do koncowego wyniku", flavor: "Niebo sprzyja odwaznym" },
+      { id: "BONUS-003", type: "BONUS", name: "Jackpot", effect: { action: "multiply_result", value: 3 }, description: "x3 do koncowego wyniku", flavor: "Trafienie w dziesiatke!" },
+      { id: "BONUS-004", type: "BONUS", name: "Dodatkowa Premia", effect: { action: "add_result", value: 10000 }, description: "+10000 do koncowego wyniku", flavor: "Nieoczekiwany bonus" },
+      { id: "BONUS-005", type: "BONUS", name: "Wielka Wygrana", effect: { action: "multiply_result", value: 5 }, description: "x5 do koncowego wyniku", flavor: "Zyciowa szansa wykorzystana" },
+      { id: "PROT-001", type: "OCHRONA", name: "Tarcza", effect: { action: "block_sabotage", count: 1 }, description: "Anuluj 1 karte sabotazu", flavor: "Oslona przed atakiem" },
+      { id: "PROT-002", type: "OCHRONA", name: "Nietykalnosc", effect: { action: "block_sabotage", count: 2 }, description: "Anuluj do 2 kart sabotazu", flavor: "Zadna klatwa cie nie dosiegnie" },
+      { id: "PROT-003", type: "OCHRONA", name: "Odbicie", effect: { action: "reflect_sabotage" }, description: "Odbij sabotaz na atakujacego", flavor: "Co wyslales, wroci do ciebie" },
+      { id: "PROT-004", type: "OCHRONA", name: "Amulet", effect: { action: "minimum_multiplier", value: 1 }, description: "Gwarancja minimum x1", flavor: "Nigdy nie stracisz wszystkiego" },
+      { id: "PROT-005", type: "OCHRONA", name: "Anulowanie Klatwy", effect: { action: "remove_all_enemy_effects" }, description: "Usun wszystkie negatywne efekty", flavor: "Oczyszczenie z przeklenstw" }
+    ];
+
+    const icons = {
+      'WSPARCIE': '&#x2728;', // Sparkles
+      'SABOTAZ': '&#x2620;',  // Skull
+      'BONUS': '&#x2B50;',    // Star
+      'OCHRONA': '&#x1F6E1;'  // Shield
+    };
+
+    let currentFilter = 'all';
+
+    function createCardHTML(card) {
+      return `
+        <div class="card ${card.type}" data-type="${card.type}">
+          <div class="card-header">
+            <span class="card-type-label">${card.type}</span>
+            <span class="card-icon">${icons[card.type]}</span>
+          </div>
+          <div class="card-body">
+            <div class="card-name">${card.name}</div>
+            <div class="card-content">
+              <div class="qr-container" id="qr-${card.id}"></div>
+              <div class="card-effect-container">
+                <div class="card-effect-label">Efekt:</div>
+                <div class="card-effect">${card.description}</div>
+              </div>
+            </div>
+            <div class="card-code">KOD: ${card.id}</div>
+          </div>
+          <div class="card-footer">
+            <div class="card-flavor">"${card.flavor}"</div>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderCards() {
+      const printArea = document.getElementById('print-area');
+      const filteredCards = currentFilter === 'all'
+        ? cards
+        : cards.filter(c => c.type === currentFilter);
+
+      printArea.innerHTML = filteredCards.map(createCardHTML).join('');
+
+      // Generate QR codes
+      setTimeout(generateAllQR, 100);
+    }
+
+    function generateAllQR() {
+      const filteredCards = currentFilter === 'all'
+        ? cards
+        : cards.filter(c => c.type === currentFilter);
+
+      filteredCards.forEach(card => {
+        const container = document.getElementById(`qr-${card.id}`);
+        if (container) {
+          container.innerHTML = '';
+          try {
+            new QRCode(container, {
+              text: card.id,
+              width: 100,
+              height: 100,
+              colorDark: '#1a1a2e',
+              colorLight: '#ffffff',
+              correctLevel: QRCode.CorrectLevel.M
+            });
+          } catch (e) {
+            console.error('QR generation error:', e);
+          }
+        }
+      });
+    }
+
+    function filterCards(type) {
+      currentFilter = type;
+
+      // Update button states
+      document.querySelectorAll('.filter-btns button').forEach(btn => {
+        btn.classList.remove('active');
+      });
+      document.querySelector(`.filter-btns .${type === 'all' ? 'all' : type.toLowerCase()}`).classList.add('active');
+
+      renderCards();
+    }
+
+    // Initial render
+    renderCards();
+  </script>
+</body>
+</html>
