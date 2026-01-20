@@ -438,31 +438,127 @@ Guru czyta plan i ocenia:
 ### 4. KOŁO FORTUNY
 
 **INPUT:**
-- Ocena planu (1-3 punkty) → bazowy % sukcesu
-- Modyfikatory z dyscyplin (+/- za pozytywne/negatywne)
+- Ocena planu (1-3 punkty) → modyfikator bazowy
+- Modyfikatory z dyscyplin
 - Modyfikatory z technologii
 - Modyfikatory z sojuszy/relacji
-- **Sabotaż innych krajów** → zmniejsza pola sukcesu celu!
+- Sabotaż innych krajów (kara dla celu)
 
-**PROCES:**
-Guru oblicza finalną szansę i ustawia Koło.
+---
 
-**7 TYPÓW WYNIKÓW:**
+#### 🧮 ALGORYTM OBLICZANIA WYNIKU
 
-| Pole | Kolor | Opis | Bazowy % |
-|------|-------|------|----------|
-| 🟢 **SUKCES** | Zielony | Akcja udaje się zgodnie z planem | ~35% |
-| 🔴 **PORAŻKA** | Czerwony | Akcja nie udaje się | ~25% |
-| 🟡 **KRYTYCZNY SUKCES** | Złoty | Sukces + bonus (lepiej niż planowano!) | ~5% |
-| ⚫ **KRYTYCZNA PORAŻKA** | Czarny | Porażka + konsekwencje negatywne | ~10% |
-| 🟣 **KATAKLIZM** | Fioletowy | Katastrofa! Poważne skutki dla kraju/świata | ~5% |
-| 🔵 **ODKRYCIE NAUKOWE** | Niebieski | Nieoczekiwany przełom technologiczny | ~5% |
-| ⬜ **RANDOM** | Biały | Losowe wydarzenie (Guru ciągnie kartę Twist) | ~10% |
+**KROK 1: Oblicz SUMĘ MODYFIKATORÓW**
+
+```
+MODYFIKATOR KOŃCOWY = Bazowy (plan) + Dyscypliny + Technologie + Sojusze + Sabotaż
+```
+
+**Źródła modyfikatorów:**
+
+| Źródło | Wartość | Przykład |
+|--------|---------|----------|
+| **PLAN (ocena Arbitra)** | | |
+| Plan słaby (1 pkt) | -10 | Brak argumentacji |
+| Plan dobry (2 pkt) | +0 | Solidna argumentacja |
+| Plan świetny (3 pkt) | +15 | Genialna strategia |
+| **DYSCYPLINY POZYTYWNE** | | |
+| Lvl 1 | +5 | Podstawowa przewaga |
+| Lvl 2 | +10 | Solidna przewaga |
+| Lvl 3 | +15 | Silna przewaga |
+| Lvl 4 | +20 | Dominacja |
+| **DYSCYPLINY NEGATYWNE** | | |
+| Lvl 1 (problem) | -5 | Drobny problem |
+| Lvl 2 (kryzys) | -10 | Poważny kryzys |
+| Lvl 3 (katastrofa) | -20 | Katastrofa |
+| **TECHNOLOGIE** | | |
+| Tech Tier 1 użyta | +5 | Podstawowa tech |
+| Tech Tier 2 użyta | +10 | Zaawansowana tech |
+| Tech Tier 3 użyta | +15 | Futurystyczna tech |
+| **SOJUSZE** | | |
+| Sojusznik pomaga | +5 do +10 | Wsparcie dyplomatyczne |
+| Wróg sabotuje | -5 do -15 | Sabotaż |
+| **INNE** | | |
+| Morale wysokie | +5 | Społeczeństwo zadowolone |
+| Morale niskie | -5 | Społeczeństwo niezadowolone |
+
+**KROK 2: Kręć Kołem (aplikacja generuje wynik 1-100)**
+
+**KROK 3: Dodaj modyfikator do wyniku**
+
+```
+WYNIK KOŃCOWY = Wynik Koła (1-100) + MODYFIKATOR KOŃCOWY
+```
+
+**KROK 4: Sprawdź tabelę wyników**
+
+| Wynik końcowy | Rezultat | Opis |
+|---------------|----------|------|
+| ≤10 | 🟣 **KATAKLIZM** | Katastrofa! Poważne skutki. Guru ciągnie kartę DISASTER |
+| 11-25 | ⚫ **KRYTYCZNA PORAŻKA** | Porażka + dodatkowe konsekwencje negatywne |
+| 26-45 | 🔴 **PORAŻKA** | Akcja nie udaje się |
+| 46-55 | ⬜ **RANDOM** | Losowe wydarzenie. Guru ciągnie kartę TWIST |
+| 56-80 | 🟢 **SUKCES** | Akcja udaje się zgodnie z planem |
+| 81-95 | 🟡 **KRYTYCZNY SUKCES** | Sukces + bonus! Lepiej niż planowano |
+| ≥96 | 🔵 **ODKRYCIE** | Przełom naukowy! Guru ciągnie kartę DISCOVERY |
+
+---
+
+#### 📊 PRZYKŁADY OBLICZEŃ
+
+**Przykład 1: Dobry plan, kraj w dobrej formie**
+```
+Kręcenie Koła:           52
++ Plan świetny:      +15
++ NAUKA Lvl 2:       +10
++ Tech Tier 2:       +10
+- GŁÓD Lvl 1:        -5
+─────────────────────────
+WYNIK KOŃCOWY:       82 → 🟡 KRYTYCZNY SUKCES!
+```
+
+**Przykład 2: Słaby plan, kraj w kryzysie**
+```
+Kręcenie Koła:           45
++ Plan słaby:        -10
+- SPOŁECZ. Lvl 2:    -10
+- Sabotaż wroga:     -10
+─────────────────────────
+WYNIK KOŃCOWY:       15 → ⚫ KRYTYCZNA PORAŻKA
+```
+
+**Przykład 3: Średni plan, neutralny**
+```
+Kręcenie Koła:           60
++ Plan dobry:        +0
++ MILITARIA Lvl 1:   +5
+─────────────────────────
+WYNIK KOŃCOWY:       65 → 🟢 SUKCES
+```
+
+---
+
+#### 🎯 ZASADY STACKOWANIA MODYFIKATORÓW
+
+1. **Dyscypliny:** Liczy się TYLKO ta dyscyplina, która jest RELEWANTNA dla akcji
+   - Akcja militarna → liczy się MILITARIA
+   - Badanie technologii → liczy się NAUKA
+   - Negocjacje → liczy się SPOŁECZEŃSTWO
+
+2. **Technologie:** Max +15 (nawet jeśli użyjesz wielu technologii)
+
+3. **Sojusze/Sabotaż:** Sumują się (można mieć +10 od sojusznika i -15 od sabotażu = -5 netto)
+
+4. **Limity:**
+   - Minimalny wynik końcowy: 1 (zawsze jest szansa na Kataklizm)
+   - Maksymalny wynik końcowy: 120 (zawsze jest szansa na Odkrycie przy świetnym rzucie)
+
+---
 
 **OUTPUT:**
 - Wynik Koła → Guru interpretuje jako wydarzenie fabularne
 - Efekt mechaniczny (zasoby, dyscypliny, punkty postępu)
-- Ewentualna karta eventowa (dla wyników specjalnych)
+- Ewentualna karta eventowa (dla Kataklizm/Random/Odkrycie)
 
 **STATUS:** ✅ Kompletna
 
@@ -479,25 +575,38 @@ Guru oblicza finalną szansę i ustawia Koło.
 │                                                 │
 │  KROK 1: Guru wpisuje modyfikatory             │
 │  ┌─────────────────────────────────────────┐   │
-│  │ Bazowa szansa (plan): [60%] ▼           │   │
-│  │ + Technologia:        [+10%]            │   │
-│  │ + Dyscyplina NAUKA:   [+5%]             │   │
-│  │ - Problem GŁÓD:       [-10%]            │   │
-│  │ - Sabotaż wroga:      [-15%]            │   │
+│  │ PLAN (ocena):                           │   │
+│  │   ○ Słaby (-10)  ● Dobry (+0)  ○ Świetny (+15) │
+│  │                                         │   │
+│  │ DYSCYPLINA (relewantna):                │   │
+│  │   [NAUKA ▼] Lvl: [2 ▼]         = +10   │   │
+│  │                                         │   │
+│  │ TECHNOLOGIA użyta:              = +10   │   │
+│  │   [Tier 2 ▼]                            │   │
+│  │                                         │   │
+│  │ PROBLEMY (negatywne dyscypliny):        │   │
+│  │   [GŁÓD ▼] Lvl: [1 ▼]          = -5    │   │
+│  │                                         │   │
+│  │ SABOTAŻ/SOJUSZ:                 = +0    │   │
+│  │   [Brak ▼]                              │   │
 │  │ ════════════════════════════════════    │   │
-│  │ FINALNA SZANSA:       [50%]             │   │
+│  │ SUMA MODYFIKATORÓW:             = +15   │   │
 │  └─────────────────────────────────────────┘   │
 │                                                 │
-│  KROK 2: Koło się kręci (animacja 3D)          │
+│  KROK 2: Kręcenie Koła + animacja              │
 │         ╭─────────────────────────╮             │
-│        ╱  🟢🔴🟡⚫🟣🔵⬜         ╲            │
-│       │   Animowane koło          │            │
-│       │   z efektami świetlnymi   │            │
-│        ╲  i dźwiękami             ╱            │
+│        ╱                           ╲            │
+│       │      🎲  [72]  🎲          │           │
+│       │                             │           │
+│       │      + 15 = 87              │           │
+│        ╲                           ╱            │
 │         ╰─────────────────────────╯             │
 │                                                 │
-│  KROK 3: Wynik wyświetlony na ekranie          │
-│           🟢 SUKCES! 🟢                        │
+│  KROK 3: Wynik końcowy                         │
+│  ┌─────────────────────────────────────────┐   │
+│  │         🟡 KRYTYCZNY SUKCES! 🟡         │   │
+│  │              (wynik: 87)                │   │
+│  └─────────────────────────────────────────┘   │
 │                                                 │
 │           [ 🎲 KRĘĆ PONOWNIE ]                 │
 │                                                 │
